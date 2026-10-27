@@ -1,0 +1,106 @@
+---
+// One page per term, in each UI language: /en/t/t000001/, /ja/t/t000001/.
+import { toRomaji } from "wanakana";
+import Base from "../../../layouts/Base.astro";
+import Ruby from "../../../components/Ruby.astro";
+import {
+  LANGS, POS_NAMES, REPO, dict, headwordPairs, t, tagName, url, type Lang, type Term,
+} from "../../../lib/dict";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => dict.terms.map((term) => ({ params: { lang, id: term.id }, props: { term } })));
+}
+
+const lang = Astro.params.lang as Lang;
+const { term } = Astro.props as { term: Term };
+const sentences = term.sentences.map((sid) => dict.sentences[sid]);
+// Romaji is never stored; it's derived from the reading here (docs/handoff.md section 4).
+const romaji = toRomaji(term.reading);
+const otherLang: Lang = lang === "en" ? "ja" : "en";
+---
+<Base lang={lang} title={term.ja}>
+  <article>
+    <header class="head">
+      <h1 lang="ja"><Ruby pairs={headwordPairs(term)} /></h1>
+      <p class="reading">
+        <span lang="ja">{term.reading}</span>
+        <span class="muted">{romaji}</span>
+        {term.status === "draft" && <span class="badge draft">{t(lang, "term.draft")}</span>}
+      </p>
+      {term.alt && term.alt.length > 0 && <p class="muted" lang="ja">{term.alt.join("・")}</p>}
+      <select class="add" data-id={term.id} aria-label={t(lang, "list.add_to")}></select>
+    </header>
+
+    <h2>{t(lang, "term.senses")}</h2>
+    <ol class="senses">
+      {term.senses.map((s) => (
+        <li>
+          <span class="badge plain">{POS_NAMES[s.pos]?.[lang] ?? s.pos}</span>
+          <span class="gloss">{s.en.length ? s.en.join(", ") : "—"}</span>
+          {s.en_by === "jmdict" && <span class="badge plain">{t(lang, "badge.jmdict")}</span>}
+          {s.en_by === "machine" && <span class="badge">{t(lang, "badge.machine_translation")}</span>}
+          {/* Definition in the page's language first, the other one below it. */}
+          {[s[`def_${lang}`], s[`def_${otherLang}`]].filter(Boolean).map((d) => <p class="def">{d}</p>)}
+          {s.tags && s.tags.length > 0 && (
+            <p class="tags">
+              {s.tags.map((tag) => <a class="badge" href={url(`${lang}/?tag=${tag}`)}>{tagName(tag, lang)}</a>)}
+            </p>
+          )}
+        </li>
+      ))}
+    </ol>
+
+    {term.pitch?.value != null && (
+      <p>
+        {t(lang, "term.pitch")}: [{term.pitch.value}]
+        {!term.pitch.verified && <span class="badge draft">{t(lang, "term.unverified")}</span>}
+      </p>
+    )}
+
+    <h2>{t(lang, "term.sentences")}</h2>
+    {sentences.length === 0 && <p class="muted">{t(lang, "term.no_sentences")}</p>}
+    <ul class="sentences">
+      {sentences.map((s) => (
+        <li>
+          <p class="ja" lang="ja"><Ruby pairs={s.segs} hl={s.spans[term.id]} /></p>
+          <p class="en">
+            {s.en ?? <span class="muted">{t(lang, "term.no_translation")}</span>}
+            {s.en_by === "machine" && <span class="badge">{t(lang, "badge.machine_translation")}</span>}
+          </p>
+          <p class="muted small">{s.source.type} {s.source.ref}</p>
+        </li>
+      ))}
+    </ul>
+
+    <h2>{t(lang, "term.sources")}</h2>
+    <p>{term.sources.join(", ") || "—"}</p>
+
+    <p class="small">
+      <a href={`${REPO}/edit/main/data/terms/${term.id}.yaml`}>{t(lang, "term.edit")}</a>
+      <span class="muted"> · {term.id} · {term.added}</span>
+    </p>
+  </article>
+</Base>
+
+<script>
+  import { listPicker } from "../../../scripts/lists";
+  document.querySelectorAll<HTMLSelectElement>("select.add").forEach((sel) =>
+    listPicker(sel, () => [sel.dataset.id!]),
+  );
+</script>
+
+<style>
+  .head { text-align: center; padding: 16px 0 8px; }
+  h1 { font-size: 3rem; margin: 0.5rem 0 0; }
+  .reading { font-size: 1.2rem; display: flex; gap: 12px; justify-content: center; align-items: center; flex-wrap: wrap; margin: 4px 0 12px; }
+  .senses { padding-left: 1.5rem; }
+  .senses li { margin-bottom: 12px; }
+  .gloss { font-size: 1.1rem; margin: 0 6px; }
+  .def { margin: 4px 0; }
+  .tags { margin: 4px 0; display: flex; gap: 6px; flex-wrap: wrap; }
+  .tags a { text-decoration: none; }
+  .sentences { list-style: none; padding: 0; }
+  .sentences li { padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .sentences p { margin: 2px 0; }
+  .sentences .ja { font-size: 1.25rem; line-height: 2.2; }
+</style>

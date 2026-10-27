@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.astro/
+# Written by tools/build.py on every build; the YAML in data/ is the source.
+src/data/dict.json

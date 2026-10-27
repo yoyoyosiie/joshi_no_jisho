@@ -1,11 +1,50 @@
 # UI strings (English). ja.yaml must have exactly the same keys.
+# {n} and {name} are filled in by the site.
 site.title: Joshi's Dictionary
 site.tagline: Japanese–English technical terms
+nav.search: Search
+nav.lists: My lists
+nav.about: About
+ui.language: 日本語
 search.placeholder: Search in Japanese, romaji, or English
+search.show_drafts: Show drafts
+search.tags: Filter by field
+search.clear_tags: Clear
+search.count: "Results: {n}"
+search.no_results: No matching terms.
+search.drafts_hidden: "{n} more match among drafts. Tick “Show drafts” to see them."
+search.select_all: Select all
+search.add_selected: Add selected to list
+list.add_to: Add to list…
+list.new: New list…
+list.new_prompt: Name for the new list
+list.added: "Added to “{name}”"
+list.nothing_selected: Select some terms first.
+lists.title: My lists
+lists.intro: Lists are saved in this browser only. Export a list to back it up or move it to another device.
+lists.empty: No lists yet. Use “Add to list” on a term or on search results.
+lists.list_empty: This list is empty.
+lists.curated: Curated lists
+lists.export_anki: Download for Anki
+lists.export_file: Export list
+lists.import_file: Import list
+lists.import_failed: That file isn't a list exported from this site.
+lists.rename: Rename
+lists.delete: Delete list
+lists.delete_confirm: "Delete “{name}”?"
+lists.remove: Remove
+lists.anki_help: How to set up the Anki note type
 term.reading: Reading
 term.senses: Meanings
 term.sentences: Example sentences
+term.no_sentences: No example sentences yet.
+term.no_translation: No translation yet.
 term.sources: Found in
+term.tags: Fields
 term.draft: Draft (not yet reviewed)
+term.edit: Edit this term on GitHub
+term.pitch: Pitch accent
+term.unverified: unverified
 badge.machine_translation: Machine translation
-ui.language: 日本語
+badge.jmdict: from JMdict
+footer.license: Data CC BY-SA 4.0 · Code MIT

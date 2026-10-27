@@ -1,0 +1,59 @@
+---
+// Search page. The page itself is static; src/scripts/search-page.ts fills in
+// results in the browser as you type.
+import Base from "../../layouts/Base.astro";
+import TagTree from "../../components/TagTree.astro";
+import { LANGS, t, type Lang } from "../../lib/dict";
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+---
+<Base lang={lang}>
+  <form id="search" role="search" onsubmit="return false">
+    <input type="search" id="q" name="q" placeholder={t(lang, "search.placeholder")}
+      autocomplete="off" autocapitalize="off" spellcheck="false" autofocus />
+    <div class="options">
+      <label><input type="checkbox" id="drafts" /> {t(lang, "search.show_drafts")}</label>
+      <details id="tag-filter">
+        <summary>{t(lang, "search.tags")} <span id="tag-count" class="badge plain" hidden></span></summary>
+        <TagTree lang={lang} />
+        <button type="button" id="clear-tags" class="small">{t(lang, "search.clear_tags")}</button>
+      </details>
+    </div>
+  </form>
+
+  <div class="bar">
+    <label class="small"><input type="checkbox" id="select-all" /> {t(lang, "search.select_all")}</label>
+    <select id="bulk-add" aria-label={t(lang, "search.add_selected")}></select>
+    <span id="count" class="muted small"></span>
+  </div>
+  <p id="note" class="muted small" hidden></p>
+  <ul id="results"></ul>
+</Base>
+
+<script>
+  import "../../scripts/search-page";
+</script>
+
+<style>
+  #q { width: 100%; font-size: 1.2rem; padding: 10px 14px; }
+  .options { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 10px 0; align-items: flex-start; }
+  details { flex: 1; min-width: 220px; }
+  summary { cursor: pointer; }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; padding: 8px 0;
+    border-bottom: 1px solid var(--line); }
+  #count { margin-left: auto; }
+  #results { list-style: none; margin: 0; padding: 0; }
+</style>
+
+<style is:global>
+  /* Result rows are created by the script, so these styles can't be scoped. */
+  #results li { display: flex; gap: 12px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  #results li > a { flex: 1; text-decoration: none; color: var(--text); display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: baseline; }
+  #results .ja { font-size: 1.25rem; font-weight: 600; }
+  #results .reading { color: var(--muted); }
+  #results .gloss { flex-basis: 100%; color: var(--muted); font-size: 0.95rem; }
+  #results li > a:hover .ja { color: var(--accent); }
+</style>

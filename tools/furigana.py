@@ -10,10 +10,14 @@ from common import KANJI, kata_to_hira
 
 try:
     from sudachipy import dictionary, tokenizer
-    # Mode A = shortest units, so 加工振動 splits into 加工 + 振動.
-    _tok = dictionary.Dictionary(dict="core").create(tokenizer.Tokenizer.SplitMode.A)
+    _dict = dictionary.Dictionary(dict="core")
+    # Mode A = shortest units, so a headword like 加工振動 splits into 加工 + 振動.
+    _tok = _dict.create(tokenizer.Tokenizer.SplitMode.A)
+    # Mode C = longest units, for running text: dictionary compounds keep
+    # their own reading instead of being read piece by piece.
+    _tok_c = _dict.create(tokenizer.Tokenizer.SplitMode.C)
 except ImportError:
-    _tok = None
+    _tok = _tok_c = None
 
 KANA = re.compile(r"[ぁ-ゖァ-ヺー]+")
 
@@ -44,3 +48,28 @@ def furigana(ja, reading):
     if kata_to_hira(joined).lower() != kata_to_hira(reading).lower():
         return None  # disagrees with the stored reading; don't guess
     return pairs
+
+
+def sentence(text):
+    """Furigana pairs for running text, e.g. a whole example sentence.
+
+    Every character of `text` ends up in exactly one pair. Words Sudachi
+    doesn't know get no reading rather than a wrong one.
+    """
+    if _tok_c is None:
+        return [[text]] if text else []
+    pairs = []
+    for m in _tok_c.tokenize(text):
+        surf, r = m.surface(), kata_to_hira(m.reading_form())
+        if KANJI.search(surf) and KANA.fullmatch(r):
+            pairs += _split_token(surf, r)
+        else:
+            pairs.append([surf])
+    # Glue neighbouring plain-text pairs together to keep the data small.
+    out = []
+    for p in pairs:
+        if len(p) == 1 and out and len(out[-1]) == 1:
+            out[-1] = [out[-1][0] + p[0]]
+        else:
+            out.append(p)
+    return out

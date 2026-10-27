@@ -1,0 +1,77 @@
+---
+// The frame around every page: header, language switch, footer.
+import "../styles/global.css";
+import { dict, t, url, type Lang } from "../lib/dict";
+
+interface Props {
+  lang: Lang;
+  title?: string;
+}
+const { lang, title } = Astro.props;
+const other: Lang = lang === "en" ? "ja" : "en";
+// Same page in the other language: /joshi_no_jisho/en/t/x -> /joshi_no_jisho/ja/t/x
+const otherHref = Astro.url.pathname.replace(`/${lang}/`, `/${other}/`);
+const fullTitle = title ? `${title} · ${t(lang, "site.title")}` : t(lang, "site.title");
+---
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <link rel="icon" href={url("favicon.svg")} type="image/svg+xml" />
+  </head>
+  <!-- data-base / data-lang tell the browser scripts where they are. -->
+  <body data-base={url("")} data-lang={lang}>
+    <header>
+      <a class="brand" href={url(`${lang}/`)}>
+        <span class="title">{t(lang, "site.title")}</span>
+        <span class="tagline">{t(lang, "site.tagline")}</span>
+      </a>
+      <nav>
+        <a href={url(`${lang}/`)}>{t(lang, "nav.search")}</a>
+        <a href={url(`${lang}/lists/`)}>{t(lang, "nav.lists")}</a>
+        <a href={url(`${lang}/about/`)}>{t(lang, "nav.about")}</a>
+        <a class="lang" href={otherHref} data-set-lang={other}>{t(lang, "ui.language")}</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="muted small">
+      {t(lang, "footer.license")} · <a href="https://github.com/yoyoyosiie/joshi_no_jisho">GitHub</a>
+    </footer>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <!-- UI strings for the browser scripts (src/scripts/*). -->
+    <script type="application/json" id="i18n" set:html={JSON.stringify(dict.i18n[lang])} />
+    <script>
+      import { setLang } from "../scripts/prefs";
+      // Remember the language the reader picks, so the home page opens in it next time.
+      document.querySelectorAll<HTMLElement>("[data-set-lang]").forEach((a) =>
+        a.addEventListener("click", () => setLang(a.dataset.setLang!)),
+      );
+    </script>
+  </body>
+</html>
+
+<style>
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px 24px;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 16px;
+    border-bottom: 1px solid var(--line);
+  }
+  .brand { text-decoration: none; color: var(--text); display: flex; flex-direction: column; }
+  .title { font-size: 1.4rem; font-weight: 700; }
+  .tagline { font-size: 0.85rem; color: var(--muted); }
+  nav { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+  nav a { text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  .lang { border: 1px solid var(--line); border-radius: var(--radius); padding: 0 8px; }
+  footer { max-width: 820px; margin: 0 auto; padding: 16px; border-top: 1px solid var(--line); }
+</style>

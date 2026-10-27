@@ -18,6 +18,7 @@ ROOT = TOOLS.parent
 SAMPLE_CSV = TOOLS / "patent-vocab" / "tests" / "sample_vocab.csv"
 
 sys.path.insert(0, str(TOOLS))
+import build  # noqa: E402
 import jmdict  # noqa: E402
 
 
@@ -144,6 +145,25 @@ class JmdictTest(unittest.TestCase):
         self.assertEqual([s["gloss"] for s in jmdict.lookup(idx, "赤色", "あかいろ")], [["red"]])
         self.assertEqual(len(jmdict.lookup(idx, "赤色", "セキショク")), 2)  # katakana reading folds
         self.assertEqual(jmdict.map_pos(jmdict.lookup(idx, "毎秒", "まいびょう")[0]["pos"]), "noun")
+
+
+class BuildTest(unittest.TestCase):
+    def test_spans_prefer_standalone_occurrence(self):
+        links = [{"id": "a", "surface": "振動"}, {"id": "b", "surface": "加工振動"}]
+        spans = build.place_spans("加工振動の判定では、空転時の振動を", links)
+        self.assertEqual(spans, {"b": [0, 4], "a": [14, 16]})
+
+    def test_anki_ruby(self):
+        pairs = [["写真", "しゃしん"], ["家"], ["の"], ["写真集", "しゃしんしゅう"], ["を"]]
+        self.assertEqual(build.anki_ruby(pairs), "写真[しゃしん]家の 写真集[しゃしんしゅう]を")
+        self.assertEqual(build.anki_ruby(pairs, (4, 7)), "写真[しゃしん]家の<b> 写真集[しゃしんしゅう]</b>を")
+
+    def test_segments_use_term_furigana_and_cover_sentence(self):
+        terms = {"t1": {"furigana": [["経時", "けいじ"]]}}
+        ja = "経時変化を見る。"
+        segs = build.sentence_segments(ja, {"t1": [0, 2]}, terms)
+        self.assertEqual(segs[0], ["経時", "けいじ"])  # the term's own (corrected) reading wins
+        self.assertEqual("".join(p[0] for p in segs), ja)
 
 
 if __name__ == "__main__":
