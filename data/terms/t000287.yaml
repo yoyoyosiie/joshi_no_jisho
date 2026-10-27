@@ -1,0 +1,21 @@
+id: t000287
+ja: ボール挿入ノズル
+alt: []
+reading: ボールそうにゅうノズル
+furigana:
+- [ボール]
+- [挿入, そうにゅう]
+- [ノズル]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [ball insertion nozzle]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

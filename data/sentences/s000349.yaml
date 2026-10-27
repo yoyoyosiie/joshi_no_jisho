@@ -1,0 +1,8 @@
+id: s000349
+ja: かかる塑性変形によって、小円筒部201c の最大外径d がナットの内径より大きくなれば、オーバーストローク時にナットからねじ軸101が脱落する恐れを回避できる。
+en: null
+terms:
+- {id: t000648, surface: 最大外径}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

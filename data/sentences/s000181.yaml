@@ -1,0 +1,8 @@
+id: s000181
+ja: このような配置はニック付き外周刃の外周刃とニックの交点20の位相14が一定であり、エンドミルによって切削される被加工材の切削量は各ニック付き外周刃で同一となる。
+en: null
+terms:
+- {id: t000290, surface: 交点}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

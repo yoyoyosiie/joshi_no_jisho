@@ -1,0 +1,20 @@
+id: t000212
+ja: 外周面
+alt: []
+reading: がいしゅうめん
+furigana:
+- [外周, がいしゅう]
+- [面, めん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [outer circumferential surface]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP2019032088A, JP4688057B2]
+added: 2026-10-27
+status: draft

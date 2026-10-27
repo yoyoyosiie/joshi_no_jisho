@@ -1,0 +1,21 @@
+id: t000584
+ja: ステンレス鋼SUS
+alt: []
+reading: ステンレスこうSUS
+furigana:
+- [ステンレス]
+- [鋼, こう]
+- [SUS]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [stainless steel (SUS grade)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

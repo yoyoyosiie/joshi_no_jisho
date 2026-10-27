@@ -1,0 +1,21 @@
+id: t000241
+ja: オーバーストローク時
+alt: []
+reading: オーバーストロークじ
+furigana:
+- [オーバー]
+- [ストローク]
+- [時, じ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [at overstroke, when overtraveling]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

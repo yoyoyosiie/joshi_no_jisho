@@ -1,0 +1,21 @@
+id: t000592
+ja: 各種工作機械
+alt: []
+reading: かくしゅこうさくきかい
+furigana:
+- [各種, かくしゅ]
+- [工作, こうさく]
+- [機械, きかい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [various machine tools]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,20 @@
+id: t000771
+ja: 雌ねじ
+alt: []
+reading: めねじ
+furigana:
+- [雌, め]
+- [ねじ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [internal thread, female thread]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

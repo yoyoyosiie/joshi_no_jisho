@@ -1,0 +1,11 @@
+id: s000220
+ja: 特開2006−77980号公報   近年、ロボットの使用環境の変化により、ロボットの稼働率が上げられる傾向にあり、これに伴い減速機についても高速化が要求されている。
+en: null
+terms:
+- {id: t000353, surface: 使用環境}
+- {id: t000710, surface: 変化}
+- {id: t000711, surface: 稼働率}
+- {id: t000712, surface: 高速化}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

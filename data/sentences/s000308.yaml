@@ -1,0 +1,12 @@
+id: s000308
+ja: 本発明は、このような背景と課題認識の下に、製造コストを含めて容易に工具製造や工具の再研磨が行えること、及び、切削抵抗の分散を十分に行えることでびびり振動を抑制し、許容回転数を高速に設定できる長寿命の超硬合金製エンドミルを提供することを目的とする。
+en: null
+terms:
+- {id: t000539, surface: 課題認識}
+- {id: t000540, surface: 工具製造}
+- {id: t000541, surface: 許容回転数}
+- {id: t000664, surface: 再研磨}
+- {id: t000665, surface: 分散}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

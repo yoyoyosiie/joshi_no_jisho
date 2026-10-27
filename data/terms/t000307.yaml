@@ -1,0 +1,20 @@
+id: t000307
+ja: 摩耗幅
+alt: []
+reading: まもうはば
+furigana:
+- [摩耗, まもう]
+- [幅, はば]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [wear land width, flank wear width]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

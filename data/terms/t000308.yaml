@@ -1,0 +1,19 @@
+id: t000308
+ja: 材質
+alt: []
+reading: ざいしつ
+furigana:
+- [材質, ざいしつ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [material]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

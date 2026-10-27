@@ -1,0 +1,20 @@
+id: t000485
+ja: 温度差
+alt: []
+reading: おんどさ
+furigana:
+- [温度, おんど]
+- [差, さ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [temperature difference]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

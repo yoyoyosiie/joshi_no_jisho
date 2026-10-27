@@ -1,0 +1,19 @@
+id: t000462
+ja: 配列
+alt: []
+reading: はいれつ
+furigana:
+- [配列, はいれつ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [arrangement, array]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,20 @@
+id: t000605
+ja: 所定角度
+alt: []
+reading: しょていかくど
+furigana:
+- [所定, しょてい]
+- [角度, かくど]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [predetermined angle]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

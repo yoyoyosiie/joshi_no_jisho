@@ -1,0 +1,20 @@
+id: t000345
+ja: 超硬合金
+alt: []
+reading: ちょうこうごうきん
+furigana:
+- [超硬, ちょうこう]
+- [合金, ごうきん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [cemented carbide, tungsten carbide]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

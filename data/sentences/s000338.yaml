@@ -1,0 +1,12 @@
+id: s000338
+ja: 近年、車両等の省力化が進み、例えば自動車のトランスミッションやパーキングブレーキなどを手動でなく、電動モータの力により行うシステムが開発されている。
+en: null
+terms:
+- {id: t000611, surface: トランスミッション}
+- {id: t000612, surface: パーキングブレーキ}
+- {id: t000739, surface: 車両}
+- {id: t000740, surface: 省力化}
+- {id: t000741, surface: 手動}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

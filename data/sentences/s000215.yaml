@@ -1,0 +1,10 @@
+id: s000215
+ja: 折損後の工具を観察すると、分割角が小さくなる刃溝に切り屑の擦れた溶着が見られ、切り屑詰まりによる折損が確認された。
+en: null
+terms:
+- {id: t000344, surface: 刃溝}
+- {id: t000704, surface: 折損後}
+- {id: t000705, surface: 溶着}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

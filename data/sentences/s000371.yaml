@@ -1,0 +1,9 @@
+id: s000371
+ja: しかしながら、そのようにすると、ねじ軸またはナットにたわみや歪みが生じやすくなるので注意が必要である。
+en: null
+terms:
+- {id: t000772, surface: 歪み}
+- {id: t000773, surface: 注意}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

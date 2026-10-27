@@ -1,0 +1,10 @@
+id: s000199
+ja: さらに、エンドミル製造時は不等分割ではないため、通常のエンドミルと同じように製造できるため製造コストも抑えて容易にエンドミルの製造が可能である。
+en: null
+terms:
+- {id: t000317, surface: 製造コスト}
+- {id: t000368, surface: 製造}
+- {id: t000408, surface: エンドミル製造時}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

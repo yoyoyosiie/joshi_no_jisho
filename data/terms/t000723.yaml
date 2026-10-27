@@ -1,0 +1,19 @@
+id: t000723
+ja: 内面
+alt: []
+reading: ないめん
+furigana:
+- [内面, ないめん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [inner surface]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

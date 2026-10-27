@@ -1,0 +1,21 @@
+id: t000567
+ja: 非調質鋼
+alt: []
+reading: ひちょうしつこう
+furigana:
+- [非, ひ]
+- [調質, ちょうしつ]
+- [鋼, こう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [non-heat-treated steel, microalloyed steel]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

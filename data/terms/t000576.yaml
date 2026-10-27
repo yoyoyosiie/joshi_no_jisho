@@ -1,0 +1,22 @@
+id: t000576
+ja: ニック付外周刃
+alt: []
+reading: ニックつけがいしゅうじん
+furigana:
+- [ニック]
+- [付, つけ]
+- [外周, がいしゅう]
+- [刃, じん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [nicked peripheral cutting edge]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

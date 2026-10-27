@@ -1,0 +1,19 @@
+id: t000493
+ja: 幅狭
+alt: []
+reading: はばせま
+furigana:
+- [幅狭, はばせま]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [narrow]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

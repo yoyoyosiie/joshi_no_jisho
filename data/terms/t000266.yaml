@@ -1,0 +1,19 @@
+id: t000266
+ja: 配置
+alt: []
+reading: はいち
+furigana:
+- [配置, はいち]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [arrangement, placement]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP2019032088A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,10 @@
+id: s000342
+ja: また、ねじ溝を転造で成形する場合には、ねじ軸の長さ(ねじ溝の形成長さ)及びねじ溝の切り上がり形状に応じた転造ロールをねじ軸の種類分だけ用意する必要があり、コスト高を招く。
+en: null
+terms:
+- {id: t000619, surface: 転造ロール}
+- {id: t000746, surface: 転造}
+- {id: t000747, surface: 長さ}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

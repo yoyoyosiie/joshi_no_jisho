@@ -1,0 +1,10 @@
+id: s000335
+ja: 第1偏心部 10aと第2偏心部10bは、それぞれ軸心から所定の偏心量で偏心しており、互いに所定角度の位相差を有するように配置されている。
+en: null
+terms:
+- {id: t000605, surface: 所定角度}
+- {id: t000732, surface: 偏心量}
+- {id: t000733, surface: 位相差}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,8 @@
+id: s000323
+ja: 評価は1m 切削毎に400mm/min送り速度を上げていき途中折損したところを記録した。
+en: null
+terms:
+- {id: t000583, surface: 途中折損}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

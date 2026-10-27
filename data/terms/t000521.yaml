@@ -1,0 +1,21 @@
+id: t000521
+ja: 不等分割エンドミル
+alt: []
+reading: ふとうぶんかつエンドミル
+furigana:
+- [不等, ふとう]
+- [分割, ぶんかつ]
+- [エンドミル]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [unequal-pitch end mill, variable-pitch end mill]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

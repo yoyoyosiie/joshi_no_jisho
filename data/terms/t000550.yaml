@@ -1,0 +1,20 @@
+id: t000550
+ja: 加工目的
+alt: []
+reading: かこうもくてき
+furigana:
+- [加工, かこう]
+- [目的, もくてき]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [machining purpose]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

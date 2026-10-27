@@ -1,0 +1,9 @@
+id: s000172
+ja: よって、高速切削を行っても切削抵抗が分散されて切削負荷が安定し、びびり振動を抑制できる。
+en: null
+terms:
+- {id: t000276, surface: 切削負荷}
+- {id: t000296, surface: 安定}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

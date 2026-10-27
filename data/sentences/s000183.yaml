@@ -1,0 +1,9 @@
+id: s000183
+ja: このため、組付けに時間がかかるという不具合がある。
+en: null
+terms:
+- {id: t000293, surface: 時間}
+- {id: t000762, surface: 不具合}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

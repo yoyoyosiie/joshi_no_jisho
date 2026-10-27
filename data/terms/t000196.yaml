@@ -1,0 +1,21 @@
+id: t000196
+ja: 雄ねじ溝
+alt: []
+reading: おねじみぞ
+furigana:
+- [雄, お]
+- [ねじ]
+- [溝, みぞ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [external thread groove (screw-shaft ball groove)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

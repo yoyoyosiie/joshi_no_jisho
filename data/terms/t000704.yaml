@@ -1,0 +1,20 @@
+id: t000704
+ja: 折損後
+alt: []
+reading: せっそんご
+furigana:
+- [折損, せっそん]
+- [後, ご]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [after breakage]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,22 @@
+id: t000564
+ja: びびり振動抑制効果
+alt: []
+reading: びびりしんどうよくせいこうか
+furigana:
+- [びびり]
+- [振動, しんどう]
+- [抑制, よくせい]
+- [効果, こうか]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [chatter suppression effect]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

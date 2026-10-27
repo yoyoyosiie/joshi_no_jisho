@@ -1,0 +1,10 @@
+id: s000148
+ja: かかる塑性変形により、雄ねじ溝1aの端部は変形して狭くなり、図2(c)に示すようにボール3の通過が不能となる。
+en: null
+terms:
+- {id: t000235, surface: 端部}
+- {id: t000390, surface: 通過}
+- {id: t000511, surface: 不能}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

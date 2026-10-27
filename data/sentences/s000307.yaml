@@ -1,0 +1,9 @@
+id: s000307
+ja: しかし、波形状を各刃で変化させることは、エンドミル製造時に各波形状ごとの砥石が必要であり、不等分割を適用したエンドミルと同様に製造コストが高くなる。
+en: null
+terms:
+- {id: t000538, surface: 波形状ごと}
+- {id: t000663, surface: 砥石}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,20 @@
+id: t000656
+ja: 周期毎
+alt: []
+reading: しゅうきごと
+furigana:
+- [周期, しゅうき]
+- [毎, ごと]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [per period]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

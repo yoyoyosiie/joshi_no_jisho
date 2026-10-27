@@ -1,0 +1,9 @@
+id: s000334
+ja: 第1偏心部 10aと第2偏心部10bは、それぞれ円柱形状を有しており、いずれも軸本体12cの軸心に対して偏心した状態で軸本体12cから径方向外側に張り出している。
+en: null
+terms:
+- {id: t000603, surface: 円柱形状}
+- {id: t000604, surface: 径方向外側}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

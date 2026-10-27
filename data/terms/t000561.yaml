@@ -1,0 +1,23 @@
+id: t000561
+ja: ニック付き刃形
+alt: []
+reading: ニックつきはがた
+furigana:
+- [ニック]
+- [付, つ]
+- [き]
+- [刃, は]
+- [形, がた]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [nicked edge profile]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

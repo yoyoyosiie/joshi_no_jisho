@@ -1,0 +1,11 @@
+id: s000217
+ja: このニーズに対しては、もはや高速度工具鋼製のエンドミルはいかなる形状であろうとも極端に工具寿命が短くなり、対応が困難である。
+en: null
+terms:
+- {id: t000346, surface: 工具寿命}
+- {id: t000347, surface: 高速度工具鋼製}
+- {id: t000466, surface: 極端}
+- {id: t000689, surface: 対応}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

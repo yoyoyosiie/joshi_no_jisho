@@ -1,0 +1,9 @@
+id: s000267
+ja: 例えば、この実施形態の場合、前記ねじ軸1の右方端部を下方にして当該ねじ軸1の左方端部を持つと、ナット2の自重によってボール3が転動し、それに伴ってナット2が回転しながら、やがてねじ軸1の右方端部から抜け落ちてしまう。
+en: null
+terms:
+- {id: t000443, surface: 右方端部}
+- {id: t000750, surface: 自重}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

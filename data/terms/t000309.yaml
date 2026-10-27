@@ -1,0 +1,19 @@
+id: t000309
+ja: 歯面
+alt: []
+reading: しめん
+furigana:
+- [歯面, しめん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [tooth flank, tooth surface]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

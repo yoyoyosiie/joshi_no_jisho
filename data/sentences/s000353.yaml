@@ -1,0 +1,8 @@
+id: s000353
+ja: 被加工材は構造用鋼を用い、測定に使用したエンドミルは工具径Dが8mmで、4枚刃の超硬合金製とし、切削条件はN=8000回転/ min(Vc=200m/min) /tooth) Vf=3000mm/min(fz=0.09mm 軸方向切り込み8mmの溝切削にてデータを採取した。
+en: null
+terms:
+- {id: t000681, surface: データ}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

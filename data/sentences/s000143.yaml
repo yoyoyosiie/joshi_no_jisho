@@ -1,0 +1,9 @@
+id: s000143
+ja: 切り屑を分断することにより切削抵抗を抑制できる効果がある。
+en: null
+terms:
+- {id: t000229, surface: 切り屑}
+- {id: t000259, surface: 切削抵抗}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

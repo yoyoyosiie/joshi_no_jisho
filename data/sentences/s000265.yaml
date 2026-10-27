@@ -1,0 +1,12 @@
+id: s000265
+ja: 図1において、不図示の電動モータに連結されるねじ軸1は、図示左方端部を軸受5によって不図示のハウジングに対して片持ち状態に支持され、その軸受5より更に左方端部にモータ等の回転駆動源を接続する。
+en: null
+terms:
+- {id: t000441, surface: 左方端部}
+- {id: t000624, surface: 図示左方端部}
+- {id: t000625, surface: 片持ち状態}
+- {id: t000626, surface: 回転駆動源}
+- {id: t000749, surface: モータ}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

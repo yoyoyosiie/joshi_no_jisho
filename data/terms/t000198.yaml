@@ -1,0 +1,19 @@
+id: t000198
+ja: 外筒
+alt: []
+reading: がいとう
+furigana:
+- [外筒, がいとう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [outer case, outer cylinder (housing of an RV reducer)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

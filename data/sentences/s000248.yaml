@@ -1,0 +1,13 @@
+id: s000248
+ja: 現在の金型や部品の加工現場では熱処理されていない非調質鋼は当然ながら、40HR Cを超える焼き入れ材でも加工ができるエンドミルが当然のように求められている。
+en: null
+terms:
+- {id: t000413, surface: 焼き入れ材}
+- {id: t000425, surface: 加工現場}
+- {id: t000567, surface: 非調質鋼}
+- {id: t000686, surface: 現在}
+- {id: t000687, surface: 金型}
+- {id: t000688, surface: 部品}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,10 @@
+id: s000146
+ja: また、50mまでに外周刃を観察し欠損及びチッピングが生じたものはその時点で終了し、切削長を記録した。
+en: null
+terms:
+- {id: t000232, surface: 欠損}
+- {id: t000696, surface: 時点}
+- {id: t000697, surface: 切削長}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

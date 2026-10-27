@@ -1,0 +1,10 @@
+id: s000268
+ja: ガイド筒12には、不図示の位相合せピン等が設けられており、ナット2の係合孔に係合することで、ナット2とボール挿入ノズル11の位相を整合させるようにしている。
+en: null
+terms:
+- {id: t000444, surface: ガイド筒}
+- {id: t000445, surface: 位相合せピン}
+- {id: t000755, surface: 係合孔}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

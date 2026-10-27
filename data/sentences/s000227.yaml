@@ -1,0 +1,12 @@
+id: s000227
+ja: この対策として、製造上は費用と時間がかかるが、切れ刃の分割角を異なるようにして、切削力の周期を一定にしないようにした不等分割エンドミルが提案されている。
+en: null
+terms:
+- {id: t000367, surface: 切れ刃}
+- {id: t000521, surface: 不等分割エンドミル}
+- {id: t000652, surface: 対策}
+- {id: t000653, surface: 製造上}
+- {id: t000654, surface: 費用}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

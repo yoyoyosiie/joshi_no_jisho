@@ -1,0 +1,21 @@
+id: t000580
+ja: 同切削距離
+alt: []
+reading: どうせっさくきょり
+furigana:
+- [同, どう]
+- [切削, せっさく]
+- [距離, きょり]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [same cutting distance]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

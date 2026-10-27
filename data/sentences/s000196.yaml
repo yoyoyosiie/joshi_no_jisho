@@ -1,0 +1,9 @@
+id: s000196
+ja: しかるに、単に、ねじ軸1の端部までねじ溝を形成しただけでは、例えば図4に示すようにボール3はねじ溝内を転動し続けて、その端部から脱落してしまう。
+en: null
+terms:
+- {id: t000312, surface: ねじ溝}
+- {id: t000629, surface: ねじ溝内}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

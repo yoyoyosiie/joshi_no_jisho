@@ -1,0 +1,9 @@
+id: s000205
+ja: 第2揺動歯車16は、各クランク軸10が回転して第2偏心部10bが偏心回転すると、この偏心回転に連動して内歯ピン3に噛み合いながら揺動回転する。
+en: null
+terms:
+- {id: t000326, surface: 揺動回転}
+- {id: t000330, surface: 偏心回転}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

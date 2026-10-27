@@ -1,0 +1,12 @@
+id: s000222
+ja: そのような用途に用いる電動アクチュエータには、電動モータから伝達される回転運動を高効率で軸線方向運動に変換するために、ボールねじ機構が用いられる場合がある。
+en: null
+terms:
+- {id: t000358, surface: 回転運動}
+- {id: t000359, surface: 軸線方向運動}
+- {id: t000366, surface: 用途}
+- {id: t000613, surface: 電動アクチュエータ}
+- {id: t000742, surface: 高効率}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

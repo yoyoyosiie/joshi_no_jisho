@@ -1,0 +1,20 @@
+id: t000274
+ja: 分割角
+alt: []
+reading: ぶんかつかく
+furigana:
+- [分割, ぶんかつ]
+- [角, かく]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [index angle, flute spacing angle]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

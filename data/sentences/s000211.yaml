@@ -1,0 +1,11 @@
+id: s000211
+ja: このため、第1筒部の内歯と揺動歯車の歯部との間のすき間、すなわち、第1筒部の内周面と揺動歯車との間のすき間が使用前の状態よりも狭くなることがない。
+en: null
+terms:
+- {id: t000340, surface: すき間}
+- {id: t000379, surface: 歯部}
+- {id: t000393, surface: 内歯}
+- {id: t000484, surface: 使用前}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

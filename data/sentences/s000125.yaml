@@ -1,0 +1,10 @@
+id: s000125
+ja: 不等分割品である従来例2は分割角度が小さい溝の波形状外周刃が 40m切削時にチッピングが生じた。
+en: null
+terms:
+- {id: t000205, surface: チッピング}
+- {id: t000339, surface: 切削時}
+- {id: t000351, surface: 分割角度}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

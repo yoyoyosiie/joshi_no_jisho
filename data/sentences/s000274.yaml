@@ -1,0 +1,11 @@
+id: s000274
+ja: この際、押圧される反対側の雄ねじ溝1aの形状が変形しないように、当該ねじ溝形状に緊密に接触する治具を、カシメ治具CJと反対方向からあてがい、これにより押圧力を分散するのが望ましい。
+en: null
+terms:
+- {id: t000452, surface: 反対側}
+- {id: t000640, surface: ねじ溝形状}
+- {id: t000641, surface: 反対方向}
+- {id: t000768, surface: 押圧力}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

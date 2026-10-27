@@ -1,0 +1,9 @@
+id: s000123
+ja: 外筒2 の内周面には、多数のピン溝2bが形成されている。
+en: null
+terms:
+- {id: t000203, surface: 内周面}
+- {id: t000382, surface: ピン溝}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

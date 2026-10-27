@@ -1,0 +1,9 @@
+id: s000197
+ja: 各刃で切削される被加工材の切削量が同一であれば、従来技術で説明した等分割エンドミルと同様に、加工中に共振が起こり、びびり振動が生じやすい。
+en: null
+terms:
+- {id: t000313, surface: 等分割エンドミル}
+- {id: t000369, surface: 加工中}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

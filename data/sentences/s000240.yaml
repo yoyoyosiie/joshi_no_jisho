@@ -1,0 +1,10 @@
+id: s000240
+ja: その反面、加工面は普通刃エンドミルより粗くなるため、荒加工で用いることが多い。
+en: null
+terms:
+- {id: t000395, surface: 普通刃エンドミル}
+- {id: t000649, surface: 反面}
+- {id: t000650, surface: 加工面}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

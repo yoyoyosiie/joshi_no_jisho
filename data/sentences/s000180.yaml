@@ -1,0 +1,10 @@
+id: s000180
+ja: 通常波形状刃形は図2のように波ピッチ4毎に波高さ5の山部6と谷部7を繰り返した刃形であり、切り屑を細かく分断できる刃形となる。
+en: null
+terms:
+- {id: t000289, surface: 谷部}
+- {id: t000560, surface: 通常波形状刃形}
+- {id: t000678, surface: 波高さ}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

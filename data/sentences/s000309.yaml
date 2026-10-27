@@ -1,0 +1,15 @@
+id: s000309
+ja: 本発明は、従来よりも大きい単位時間当たりの切り屑排出量を達成できる高速切削用のエンドミルの開発に伴い、切り屑の排出と生産性の点で大きな優位性を持つ等分割エンドミルを採用し、びびり振動を極力抑えることができる他の形状要因を検討した結果として生まれたものである。
+en: null
+terms:
+- {id: t000542, surface: 単位時間当たり}
+- {id: t000543, surface: 切り屑排出量}
+- {id: t000544, surface: 高速切削用}
+- {id: t000545, surface: 形状要因}
+- {id: t000666, surface: 開発}
+- {id: t000667, surface: 排出}
+- {id: t000668, surface: 生産性}
+- {id: t000669, surface: 優位性}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

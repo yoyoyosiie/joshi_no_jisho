@@ -1,0 +1,19 @@
+id: t000399
+ja: 凹凸
+alt: []
+reading: おうとつ
+furigana:
+- [凹凸, おうとつ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [unevenness, peaks and valleys]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

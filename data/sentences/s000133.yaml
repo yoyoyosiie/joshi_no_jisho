@@ -1,0 +1,10 @@
+id: s000133
+ja: 被加工材は硬さHRC40の熱間ダイス鋼SKD61を被加工材として用い、切削を行った。
+en: null
+terms:
+- {id: t000217, surface: 被加工材}
+- {id: t000348, surface: 硬さHRC}
+- {id: t000349, surface: 熱間ダイス鋼SKD}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

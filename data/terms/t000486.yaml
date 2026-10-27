@@ -1,0 +1,20 @@
+id: t000486
+ja: 旋回部
+alt: []
+reading: せんかいぶ
+furigana:
+- [旋回, せんかい]
+- [部, ぶ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [swivel portion, rotating section]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

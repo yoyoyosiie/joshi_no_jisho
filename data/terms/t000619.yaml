@@ -1,0 +1,20 @@
+id: t000619
+ja: 転造ロール
+alt: []
+reading: てんぞうロール
+furigana:
+- [転造, てんぞう]
+- [ロール]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [thread-rolling die]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

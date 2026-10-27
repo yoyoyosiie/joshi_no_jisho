@@ -1,0 +1,20 @@
+id: t000285
+ja: 熱処理
+alt: []
+reading: ねつしょり
+furigana:
+- [熱, ねつ]
+- [処理, しょり]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [heat treatment]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

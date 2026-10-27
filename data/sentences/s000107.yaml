@@ -1,0 +1,10 @@
+id: s000107
+ja: 外周刃の形状は波刃形とし、波ピッチを1mmで、ねじれ角は45°とし、テストに用いた。
+en: null
+terms:
+- {id: t000183, surface: 波ピッチ}
+- {id: t000213, surface: 形状}
+- {id: t000695, surface: 波刃形}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

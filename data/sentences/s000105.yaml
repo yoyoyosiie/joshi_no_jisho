@@ -1,0 +1,9 @@
+id: s000105
+ja: 好ましくは基準形状外周刃のそれぞれの位相から前記波ピッチの1%〜3%の幅で工具軸方向にずれていることが望ましい。
+en: null
+terms:
+- {id: t000181, surface: 基準形状外周刃}
+- {id: t000195, surface: 工具軸方向}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

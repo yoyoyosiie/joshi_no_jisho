@@ -1,0 +1,11 @@
+id: s000277
+ja: ナット102には 、ボール103の循環用のコマ(不図示)が設けられており、それを抑えるためのスリーブ107がナット102の外周に配置され、止め輪108により固定されている。
+en: null
+terms:
+- {id: t000458, surface: スリーブ}
+- {id: t000513, surface: コマ}
+- {id: t000646, surface: 止め輪}
+- {id: t000776, surface: 外周}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

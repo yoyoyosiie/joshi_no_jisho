@@ -1,0 +1,23 @@
+id: t000414
+ja: 基準波形状外周刃
+alt: []
+reading: きじゅんはけいじょうがいしゅうじん
+furigana:
+- [基準, きじゅん]
+- [波形, はけい]
+- [状, じょう]
+- [外周, がいしゅう]
+- [刃, じん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [reference wavy peripheral edge]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

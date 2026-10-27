@@ -1,0 +1,19 @@
+id: t000244
+ja: 内径
+alt: []
+reading: ないけい
+furigana:
+- [内径, ないけい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [inner diameter, bore]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A, JP4688057B2]
+added: 2026-10-27
+status: draft

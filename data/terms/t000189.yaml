@@ -1,0 +1,19 @@
+id: t000189
+ja: 山部
+alt: []
+reading: やまべ
+furigana:
+- [山部, やまべ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [crest, land (thread or wave peak)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP4688057B2]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,11 @@
+id: s000200
+ja: また、不等分割を適用したエンドミルは、形状的に刃溝が不均一によることを意味し、切り屑排出性が不均一になりやすく切り屑の排出性が悪いため、異常摩耗や欠けなどの問題があった。
+en: null
+terms:
+- {id: t000318, surface: 欠け}
+- {id: t000372, surface: 不均一}
+- {id: t000404, surface: 異常摩耗}
+- {id: t000536, surface: 切り屑排出性}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

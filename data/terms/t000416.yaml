@@ -1,0 +1,21 @@
+id: t000416
+ja: 高硬度材
+alt: []
+reading: こうこうどざい
+furigana:
+- [高, こう]
+- [硬度, こうど]
+- [材, ざい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [high-hardness material, hardened steel]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

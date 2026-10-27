@@ -1,0 +1,19 @@
+id: t000511
+ja: 不能
+alt: []
+reading: ふのう
+furigana:
+- [不能, ふのう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [impossible, inoperable]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

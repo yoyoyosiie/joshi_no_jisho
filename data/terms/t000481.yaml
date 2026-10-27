@@ -1,0 +1,19 @@
+id: t000481
+ja: 箇所
+alt: []
+reading: かしょ
+furigana:
+- [箇所, かしょ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [location, spot]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

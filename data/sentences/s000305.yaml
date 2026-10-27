@@ -1,0 +1,8 @@
+id: s000305
+ja: 不等分割を適用したエンドミルは上手な形状設計をすれば、一定のびびり振動を抑制する効果があるが、切れ刃が不均一に並んでいることからエンドミルの製造が困難であり、製造コストが高くなる。
+en: null
+terms:
+- {id: t000533, surface: 形状設計}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

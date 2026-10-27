@@ -1,0 +1,10 @@
+id: s000257
+ja: 不等分割品に関しては刃溝研削において、分割角度を調整するため研削時間が多くなり、さらに、ランド幅を均一にするための、研削する箇所が多くなり研削時間が多くなる。
+en: null
+terms:
+- {id: t000429, surface: ランド幅}
+- {id: t000480, surface: 均一}
+- {id: t000481, surface: 箇所}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

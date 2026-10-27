@@ -1,0 +1,21 @@
+id: t000538
+ja: 波形状ごと
+alt: []
+reading: はけいじょうごと
+furigana:
+- [波形, はけい]
+- [状, じょう]
+- [ごと]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [per wave form]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

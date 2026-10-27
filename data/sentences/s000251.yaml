@@ -1,0 +1,11 @@
+id: s000251
+ja: ここでずれ量15はプラスをシャンク側方向3とし、マイナスを工具先端方向2とする。
+en: null
+terms:
+- {id: t000418, surface: シャンク側方向}
+- {id: t000419, surface: マイナス}
+- {id: t000420, surface: 工具先端方向}
+- {id: t000470, surface: プラス}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

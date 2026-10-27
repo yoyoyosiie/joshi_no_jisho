@@ -1,0 +1,20 @@
+id: t000346
+ja: 工具寿命
+alt: []
+reading: こうぐじゅみょう
+furigana:
+- [工具, こうぐ]
+- [寿命, じゅみょう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [tool life]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft
