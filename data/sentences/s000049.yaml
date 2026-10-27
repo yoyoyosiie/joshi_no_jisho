@@ -1,0 +1,8 @@
+id: s000049
+ja: 演算ユニット3 8には、加工状態判断ユニット 4 4 と、後述する演算判断処理した信号を出力するための入出力ユニット 4 6 とが接続される。
+en: null
+terms:
+- {id: t000070, surface: 入出力ユニット}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

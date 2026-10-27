@@ -1,0 +1,9 @@
+id: s000018
+ja: この周波数スペクトラムでは、縦軸に振動の強さ(ms?)を、横軸に周波数(Hz)を表わしている。
+en: null
+terms:
+- {id: t000023, surface: 強さ}
+- {id: t000059, surface: 横軸}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,21 @@
+id: t000112
+ja: 固有振動数
+alt: []
+reading: こゆうしんどうすう
+furigana:
+- [固有, こゆう]
+- [振動, しんどう]
+- [数, すう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

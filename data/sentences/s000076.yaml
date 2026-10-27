@@ -1,0 +1,8 @@
+id: s000076
+ja: 工作機械制御盤 3 2 は、工作機械 1 2 を制御するものであり、制御操作盤 3 4 に接続される。
+en: null
+terms:
+- {id: t000121, surface: 工作機械制御盤}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

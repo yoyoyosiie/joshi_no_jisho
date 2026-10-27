@@ -1,0 +1,8 @@
+id: s000037
+ja: 具体的には、基本波(TPF 1)は、主軸回転数r p mX刃数 60から得られる工具通過周波数(Too1-Passing-Frequency)(TPEFE)である。
+en: null
+terms:
+- {id: t000054, surface: 工具通過周波数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

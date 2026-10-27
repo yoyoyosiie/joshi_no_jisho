@@ -1,0 +1,10 @@
+id: s000011
+ja: マクロ的な監視を行う場合には、しきい値として別途に工具刃数とリピートカウンタ 4 2 の数値を入れるだけでもよい。
+en: null
+terms:
+- {id: t000015, surface: しきい値}
+- {id: t000126, surface: 別途}
+- {id: t000161, surface: 監視}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

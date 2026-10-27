@@ -1,0 +1,8 @@
+id: s000015
+ja: 変化表示窓56 3 では、ドットグラフの数値の低い方が良好な切削を表す一方、数値の高い方が切削性の悪化やびびりの発生を表している。
+en: null
+terms:
+- {id: t000020, surface: 変化表示窓}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

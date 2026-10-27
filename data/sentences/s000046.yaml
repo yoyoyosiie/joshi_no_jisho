@@ -1,0 +1,9 @@
+id: s000046
+ja: さらに、再生びびりを示す赤色が出ると、加工異常でもやることが示される。
+en: null
+terms:
+- {id: t000066, surface: 再生びびり}
+- {id: t000134, surface: 加工異常}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

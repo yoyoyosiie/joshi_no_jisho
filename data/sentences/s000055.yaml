@@ -1,0 +1,9 @@
+id: s000055
+ja: 図 4に示すように、S RF振動は、「緑色」の色表示に設定される。
+en: null
+terms:
+- {id: t000084, surface: 緑色}
+- {id: t000136, surface: RF振動}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

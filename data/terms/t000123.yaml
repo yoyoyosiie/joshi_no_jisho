@@ -1,0 +1,19 @@
+id: t000123
+ja: 演算
+alt: []
+reading: えんざん
+furigana:
+- [演算, えんざん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: suru-noun
+  en: [operation, calculation]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

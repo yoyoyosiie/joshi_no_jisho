@@ -1,0 +1,11 @@
+id: s000040
+ja: このしきい値越えの信号は、リピートカウンタ 4 2から外部に出力される。
+en: null
+terms:
+- {id: t000057, surface: リピートカウンタ}
+- {id: t000061, surface: 信号}
+- {id: t000069, surface: しきい値越え}
+- {id: t000139, surface: 外部}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,8 @@
+id: s000089
+ja: 演算ユニット 3 8には、スピンドル1 8 の回転数、カッタ 2 2の刃数及び固有振動数等を入力する入力設定ユニット 4 0が接続される。
+en: null
+terms:
+- {id: t000151, surface: 回転数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

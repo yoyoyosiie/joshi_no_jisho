@@ -1,0 +1,31 @@
+id: t000021
+ja: 縦軸
+alt: []
+reading: たてじく
+furigana:
+- [縦軸, たてじく]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [vertical axis, vertical line]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: [vertical shaft, spindle]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+- pos: noun
+  en: [connection between past and present]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

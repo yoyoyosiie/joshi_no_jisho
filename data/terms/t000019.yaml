@@ -1,0 +1,20 @@
+id: t000019
+ja: 経時変化
+alt: []
+reading: きょうじへんか
+furigana:
+- [経時, きょうじ]
+- [変化, へんか]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

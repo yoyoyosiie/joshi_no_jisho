@@ -1,0 +1,20 @@
+id: t000172
+ja: 有瞬時
+alt: []
+reading: ゆうしゅんじ
+furigana:
+- [有, ゆう]
+- [瞬時, しゅんじ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

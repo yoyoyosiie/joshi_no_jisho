@@ -1,0 +1,9 @@
+id: s000010
+ja: Non一TPF振動は、「黄色」の色表示に設定される。
+en: null
+terms:
+- {id: t000013, surface: TPF振動}
+- {id: t000099, surface: 黄色}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

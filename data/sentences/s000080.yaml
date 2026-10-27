@@ -1,0 +1,10 @@
+id: s000080
+ja: トータルパワー表示窓5 1 には、各時間帯における加工と共に変化する振動量の大きさが、リアルタイム性を有するトータルパワー(G?)として表示される。
+en: null
+terms:
+- {id: t000129, surface: 大きさ}
+- {id: t000130, surface: リアルタイム性}
+- {id: t000163, surface: 時間帯}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

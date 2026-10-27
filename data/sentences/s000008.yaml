@@ -1,0 +1,9 @@
+id: s000008
+ja: この種の作業機械では、高精度な加工を行うために、加工状態の良否を判断する必要がある。
+en: null
+terms:
+- {id: t000009, surface: 加工状態}
+- {id: t000148, surface: 精度}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

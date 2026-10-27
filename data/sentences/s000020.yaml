@@ -1,0 +1,10 @@
+id: s000020
+ja: トータルパワー表示窓 5 1 では、加速度を二乗した値の和が縦軸に表わされ、経過時間(秒)が横軸に表わされる。
+en: null
+terms:
+- {id: t000025, surface: トータルパワー表示窓}
+- {id: t000078, surface: 加速度}
+- {id: t000091, surface: 経過時間}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,25 @@
+id: t000126
+ja: 別途
+alt: []
+reading: べっと
+furigana:
+- [別途, べっと]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: na-adj
+  en: [separate, special, another]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: [separately]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

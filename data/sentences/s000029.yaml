@@ -1,0 +1,9 @@
+id: s000029
+ja: 図4に示すように、相対的に振動量の小さなSRF振動を最前面に配置させ、相対的に振動量の大きなびびり振動を最背面に配置させている。
+en: null
+terms:
+- {id: t000038, surface: SRF振動}
+- {id: t000113, surface: 相対的}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

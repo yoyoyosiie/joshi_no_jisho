@@ -1,0 +1,9 @@
+id: s000056
+ja: 次いで、加工が開始される8秒から1 2 秒の間では、TPFn振動(水色)が多く占めており、加工が正常に行われていることが確認される。
+en: null
+terms:
+- {id: t000085, surface: 正常}
+- {id: t000137, surface: 水色}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

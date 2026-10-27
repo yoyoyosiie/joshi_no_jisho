@@ -1,0 +1,20 @@
+id: t000076
+ja: 相対比
+alt: []
+reading: そうたいひ
+furigana:
+- [相対, そうたい]
+- [比, ひ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

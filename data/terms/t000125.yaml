@@ -1,0 +1,25 @@
+id: t000125
+ja: 情報
+alt: []
+reading: じょうほう
+furigana:
+- [情報, じょうほう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [information, news, intelligence, advices]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: [information, 'data contained in characters, signals, code, etc.']
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

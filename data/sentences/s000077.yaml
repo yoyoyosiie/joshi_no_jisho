@@ -1,0 +1,10 @@
+id: s000077
+ja: 演算ユニット 3 8から加工状態判断ユニット4 4 には、更新されたデータが、通常、毎秒送られる。
+en: null
+terms:
+- {id: t000124, surface: 加工状態判断ユニット}
+- {id: t000127, surface: 毎秒}
+- {id: t000162, surface: 通常}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

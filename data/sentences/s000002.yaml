@@ -1,0 +1,11 @@
+id: s000002
+ja: さらに、基本波の他、該基本波の整数倍の周波数である高調波が発生する。
+en: null
+terms:
+- {id: t000002, surface: 基本波}
+- {id: t000017, surface: 周波数}
+- {id: t000035, surface: 高調波}
+- {id: t000047, surface: 整数倍}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

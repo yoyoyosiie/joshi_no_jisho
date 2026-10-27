@@ -1,0 +1,8 @@
+id: s000017
+ja: 演算ユニット 3 8では、演算により得られた加工周波数が、SRF振動(空転周波数) 、TPF1振動(基本波) 、TPFn振動(高調波) 、Non ーT PF振動(残余周波数) 、又はびびり振動(びびり周波数)に振り分けられる。
+en: null
+terms:
+- {id: t000022, surface: 残余周波数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

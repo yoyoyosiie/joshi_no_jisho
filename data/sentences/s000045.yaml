@@ -1,0 +1,10 @@
+id: s000045
+ja: ここで、図4に示す縦軸のゲインは、表示時間の5秒後から20秒までのピビーク高さに合わせて決まるため、振動が大きなびびり加工部のピークまでを表す表示となる。
+en: null
+terms:
+- {id: t000065, surface: ピーク}
+- {id: t000173, surface: ゲイン}
+- {id: t000174, surface: 秒後}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27
