@@ -18,6 +18,10 @@ import fetch
 import pdf
 
 
+# english/en_by are filled by gloss.py; flags are explained in extract.FLAGS.
+COLUMNS = ["term", "reading", "freq", "n_patents", "sources", "example_ja", "english", "en_by", "en_source", "flags"]
+
+
 def claim1(p):
     return p.claims[0] if p.claims else p.abstract
 
@@ -61,14 +65,16 @@ def main():
 
     with open(a.out, "w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel reads UTF-8
         w = csv.writer(f)
-        w.writerow(["term", "reading", "freq", "n_patents", "sources", "example_ja", "english", "en_source"])
+        w.writerow(COLUMNS)
         for t in terms:
             en = english.get(t["sources"][0], {})
             w.writerow([t["term"], t["reading"], t["freq"], len(t["sources"]), " ".join(t["sources"]),
-                        t["example"], "", en.get("number", "")])
+                        t["example"], "", "", en.get("number", ""), " ".join(t["flags"])])
     pathlib.Path(a.out).with_suffix(".english.json").write_text(
         json.dumps(english, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"{len(terms)} terms from {len(patents)} patents -> {a.out}")
+    flagged = sum(1 for t in terms if t["flags"])
+    print(f"{len(terms)} terms from {len(patents)} patents -> {a.out} ({flagged} flagged for a check)")
+    print(f"Next: python gloss.py {a.out}   # fill the english column")
 
 
 if __name__ == "__main__":

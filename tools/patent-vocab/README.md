@@ -16,9 +16,24 @@ Run these from this folder (`cd tools/patent-vocab`).
     python run.py ... --no-english --min-freq 1              # options
 
 Output `vocab.csv` (opens in Excel): term, reading, freq, n_patents, sources,
-example_ja, english (blank, for you), en_source. `vocab.english.json` holds the
+example_ja, english, en_by, en_source, flags. `vocab.english.json` holds the
 title and claim 1 of each patent's English family member (US > EP > WO) to
 translate against.
+
+`flags` marks rows to check by hand:
+- `ocr?`: an unknown katakana word (ワソーク), or a rare term one character off a common one (スベクトラム vs スペクトラム).
+- `reading?`: Sudachi didn't know a kanji part, so the reading is a guess.
+- `reading-fixed`: the reading came from `READING_FIX` in extract.py (経時 → けいじ). Add to that table when you find another.
+- `not-a-term?`: gloss.py found no meaning. The importer skips these rows.
+
+## English glosses
+    python gloss.py vocab.csv                        # needs ANTHROPIC_API_KEY
+    python gloss.py vocab.csv --prompt-only          # no key: paste the prompts into Claude, save its JSON answers
+    python gloss.py vocab.csv --apply glosses.json   # write those answers ({"term": ["gloss", ...]})
+
+Fills only blank `english` cells, using the patent's English abstract/claim 1 as
+context so glosses match machining usage. Filled rows get `en_by=machine`; the
+importer keeps that label, so the site can tell machine glosses from reviewed ones.
 
 ## Into the dictionary
     python tools/import.py tools/patent-vocab/vocab.csv --jmdict JMdict_e.gz   # from the repo root
@@ -31,8 +46,8 @@ Every row becomes a draft term; see `data/README.md` for reviewing them.
 - `extract.py`: Sudachi (mode C) tokenizes; consecutive nouns are joined (減速 + 機構 -> 減速機構); boilerplate (前記, 本発明, 請求項...) and verb-use サ変 nouns (低減する) are dropped. Score = freq x patents seen in, with a bonus for compounds over 3 chars.
 
 ## Known limits
-- English column is not filled automatically. JP and EN family texts are not sentence-parallel, so term-level alignment needs a statistical aligner or an LLM pass. Claim 1 pairs are the best context.
+- Machine glosses are a first draft. They're good for compounds the English abstract names (空転周波数 → idling frequency) and weaker for generic words.
 - J-PlatPat is not used: it is a JS app and its terms discourage automated bulk access. For bulk JP data, JPO's 特許情報取得API (registration required) is the official route.
-- OCR is not perfect. Expect a few misread terms (e.g. ワソーク for ワーク) at low frequency; check the example_ja column before trusting a rare term.
-- Sudachi sometimes gives the wrong reading (経時 -> きょうじ, should be けいじ). Check readings of kanji compounds.
+- The flags catch most OCR junk, not all: 警告城 (for 警告域) and 総和基 (for 総和量) are real kanji, so only the gloss step notices them.
+- Sudachi readings can be wrong without being flagged (X刃数 read as Xじんすう). Readings of rare kanji compounds still need a look.
 - `tests/sample.html` is a hand-written fixture, not a real patent.
