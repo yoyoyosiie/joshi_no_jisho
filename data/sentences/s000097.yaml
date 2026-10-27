@@ -1,0 +1,8 @@
+id: s000097
+ja: T PFは、主軸回転数x刃数6 0から算出される基本波及びその高調波(該基本波の整数倍)の総和である。
+en: null
+terms:
+- {id: t000168, surface: 総和}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

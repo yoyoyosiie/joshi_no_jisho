@@ -1,0 +1,8 @@
+id: s000091
+ja: この高調波は、基本波の2倍の高調波(TPF 2) 、前記基本波の3倍の高調波(TPF 3)から該基本波のn倍の高調波(TPFn)の周波数H z として発生する。
+en: null
+terms:
+- {id: t000153, surface: n倍}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

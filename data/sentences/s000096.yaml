@@ -1,0 +1,9 @@
+id: s000096
+ja: 周波数スペクトル表示窓5 2 には、必要に応じて、加工振動が警告城に入る予兆を表示する予兆しきい値6 3 と、前記加工振動が異常に上昇したことを表示すーーるアラームしきい値6 4とが設定される。
+en: null
+terms:
+- {id: t000164, surface: 警告城}
+- {id: t000165, surface: 予兆}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

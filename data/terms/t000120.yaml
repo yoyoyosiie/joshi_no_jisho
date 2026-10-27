@@ -1,0 +1,30 @@
+id: t000120
+ja: ハウジング
+alt: []
+reading: ハウジング
+furigana: null
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [housing (i.e. accommodation)]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: ['housing (equipment, etc.)', cabinet]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+- pos: noun
+  en: [hosting (e.g. computer services)]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

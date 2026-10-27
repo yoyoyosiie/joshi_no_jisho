@@ -1,0 +1,9 @@
+id: s000082
+ja: しきい値の入力には、別途の入力画面(婦直せず)が使用され、この入力画面は、画面選択ボタン5 7 の操作により表示される。
+en: null
+terms:
+- {id: t000135, surface: 入力画面}
+- {id: t000169, surface: 入力}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

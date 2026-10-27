@@ -1,0 +1,21 @@
+id: t000033
+ja: 主軸回転数
+alt: []
+reading: しゅじくかいてんすう
+furigana:
+- [主軸, しゅじく]
+- [回転, かいてん]
+- [数, すう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,8 @@
+id: s000032
+ja: 次いで、演算ユニット 3 8では、アンプ及びフィルタ回路 3 6 を介して取り込まれた加工振動に、フーリエ変換(フーリエ級数展開)による演算解析が行われる。
+en: null
+terms:
+- {id: t000046, surface: フーリエ級数展開}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

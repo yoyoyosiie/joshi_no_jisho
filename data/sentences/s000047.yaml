@@ -1,0 +1,8 @@
+id: s000047
+ja: ここで、実際に加工による振動周波数、例えば、10Hzて10, 000Hzが取得される。
+en: null
+terms:
+- {id: t000067, surface: 振動周波数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

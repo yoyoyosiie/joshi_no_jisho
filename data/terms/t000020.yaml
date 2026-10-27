@@ -1,0 +1,21 @@
+id: t000020
+ja: 変化表示窓
+alt: []
+reading: へんかひょうじまど
+furigana:
+- [変化, へんか]
+- [表示, ひょうじ]
+- [窓, まど]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: []
+  en_by: null
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

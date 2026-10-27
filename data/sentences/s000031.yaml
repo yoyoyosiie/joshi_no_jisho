@@ -1,0 +1,9 @@
+id: s000031
+ja: 工作機械 1 2 は、後述する加速度センサ2 6 やマイクロフォン2 8並びにコントローラ 3 0 を機能的に纏めたシステムの作業機械に適用される。
+en: null
+terms:
+- {id: t000044, surface: マイクロフォン}
+- {id: t000048, surface: 加速度センサ}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

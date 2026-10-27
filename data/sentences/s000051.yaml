@@ -1,0 +1,13 @@
+id: s000051
+ja: このドットグラフでは、数値の低い方が良好な切削を表す一方、数値の高い方が切削性の悪化やびびりの発生を表している。
+en: null
+terms:
+- {id: t000072, surface: ドットグラフ}
+- {id: t000081, surface: 数値}
+- {id: t000132, surface: 切削}
+- {id: t000133, surface: 発生}
+- {id: t000166, surface: 切削性}
+- {id: t000167, surface: 悪化}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

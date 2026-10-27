@@ -1,0 +1,11 @@
+id: s000001
+ja: 加工振動の判定では、空転時の振動を許容値として設定している。
+en: null
+terms:
+- {id: t000001, surface: 加工振動}
+- {id: t000003, surface: 振動}
+- {id: t000080, surface: 空転時}
+- {id: t000170, surface: 許容値}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

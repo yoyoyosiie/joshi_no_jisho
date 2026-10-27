@@ -1,0 +1,10 @@
+id: s000019
+ja: 図 1 1は、前記トータルパワーの特定の 1 秒間における波数スペクトラムの説明図である。
+en: null
+terms:
+- {id: t000024, surface: トータルパワー}
+- {id: t000079, surface: 秒間}
+- {id: t000159, surface: 特定}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

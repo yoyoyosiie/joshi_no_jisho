@@ -1,0 +1,9 @@
+id: s000016
+ja: 縦軸の表示は、自動ゲイン方式である。
+en: null
+terms:
+- {id: t000021, surface: 縦軸}
+- {id: t000036, surface: 表示}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

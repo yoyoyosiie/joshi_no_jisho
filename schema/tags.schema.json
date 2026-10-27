@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tags.schema.json",
+  "title": "Tag list",
+  "description": "data/tags.yaml: the controlled, hierarchical tag list.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "ja", "en"],
+    "properties": {
+      "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+      "ja": {"type": "string", "minLength": 1},
+      "en": {"type": "string", "minLength": 1},
+      "parent": {"type": ["string", "null"], "description": "Id of the parent tag; filtering on a parent includes its children."}
+    }
+  }
+}

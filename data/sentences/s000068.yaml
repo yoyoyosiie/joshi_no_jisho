@@ -1,0 +1,8 @@
+id: s000068
+ja: これは、再生びびりが発生していることを示しており、そのびびり振動数は、スピンドル系のツーリングの固有振動数である。
+en: null
+terms:
+- {id: t000112, surface: 固有振動数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

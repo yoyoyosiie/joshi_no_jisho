@@ -1,0 +1,8 @@
+id: s000026
+ja: T PF振動の入力と演算は、加速度センサ 2 6及び(又は)マイクロフォン2 8からの情報と、NC装置から読み取られる主軸回転数(RPM)の情報と、使用される工具(カッタ 2 2)の刃数とを、別途の設定画面から入力し、この三つのパラメータから演算することができる。
+en: null
+terms:
+- {id: t000033, surface: 主軸回転数}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

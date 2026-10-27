@@ -1,0 +1,12 @@
+id: s000027
+ja: 一般的に、加工工具を介してワークに加工処理を施すために、各種の工作機械が使用されている。
+en: null
+terms:
+- {id: t000034, surface: 工作機械}
+- {id: t000045, surface: ワーク}
+- {id: t000052, surface: 加工処理}
+- {id: t000100, surface: 加工工具}
+- {id: t000147, surface: 一般的}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

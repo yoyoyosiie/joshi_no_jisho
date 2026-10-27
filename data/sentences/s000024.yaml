@@ -1,0 +1,10 @@
+id: s000024
+ja: そして、スピンドル1 8 の振動が、アンプ及びフィルタ回路 3 6 を介して演算ユニット 3 8に取り込まれる。
+en: null
+terms:
+- {id: t000031, surface: スピンドル}
+- {id: t000122, surface: アンプ}
+- {id: t000140, surface: フィルタ回路}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

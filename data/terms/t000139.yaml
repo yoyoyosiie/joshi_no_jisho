@@ -1,0 +1,25 @@
+id: t000139
+ja: 外部
+alt: []
+reading: がいぶ
+furigana:
+- [外部, がいぶ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [outside (e.g. of a building), exterior]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: ['outside (of a group, company, etc.)', outside world]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

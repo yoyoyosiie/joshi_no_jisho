@@ -1,0 +1,19 @@
+id: t000032
+ja: 工程
+alt: []
+reading: こうてい
+furigana:
+- [工程, こうてい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [process, operation, stage of a process, progress of work]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

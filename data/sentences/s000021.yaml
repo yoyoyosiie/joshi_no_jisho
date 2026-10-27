@@ -1,0 +1,10 @@
+id: s000021
+ja: 周波数スペクトル表示窓5 2 は、加工振動をフーリエ変換して得られた周波数スペクトルを表示させる。
+en: null
+terms:
+- {id: t000026, surface: 周波数スペクトル表示窓}
+- {id: t000040, surface: フーリエ変換}
+- {id: t000041, surface: 周波数スペクトル}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,44 @@
+# Controlled tag list. A term's sense can only use ids from here (validate.py checks).
+# `parent` builds the tree: filtering on mech-eng also shows everything under it.
+# v1: mechanical engineering / machining first. Add tags in a PR as needed.
+
+# ── Mechanical engineering ──────────────────────────────
+- {id: mech-eng, ja: 機械工学, en: Mechanical engineering, parent: null}
+
+- {id: manufacturing, ja: 加工・製造, en: Manufacturing processes, parent: mech-eng}
+- {id: machining, ja: 機械加工, en: Machining, parent: manufacturing}
+- {id: cutting, ja: 切削加工, en: "Cutting (turning, milling, drilling)", parent: machining}
+- {id: grinding, ja: 研削加工, en: Grinding, parent: machining}
+- {id: machine-tools, ja: 工作機械, en: Machine tools, parent: machining}
+- {id: cutting-tools, ja: 工具, en: Cutting tools and tooling, parent: machining}
+- {id: cnc, ja: 数値制御, en: CNC / NC programming, parent: machining}
+- {id: workholding, ja: 治具・取付具, en: Workholding and fixtures, parent: machining}
+- {id: casting, ja: 鋳造, en: Casting, parent: manufacturing}
+- {id: welding, ja: 溶接, en: Welding and joining, parent: manufacturing}
+- {id: forming, ja: 塑性加工, en: "Forming (sheet metal, forging)", parent: manufacturing}
+- {id: additive, ja: 積層造形, en: Additive manufacturing, parent: manufacturing}
+- {id: surface-finish, ja: 表面処理・仕上げ, en: Surface treatment and finish, parent: manufacturing}
+- {id: quality, ja: 品質管理, en: Quality control and inspection, parent: manufacturing}
+
+- {id: design, ja: 機械設計, en: Machine design, parent: mech-eng}
+- {id: machine-elements, ja: 機械要素, en: "Machine elements (bearings, gears, fasteners)", parent: design}
+- {id: tolerancing, ja: 公差・はめあい, en: Tolerances and fits, parent: design}
+- {id: drafting, ja: 製図, en: Technical drawing, parent: design}
+- {id: cad, ja: CAD・CAE, en: CAD / CAE / FEA, parent: design}
+
+- {id: dynamics, ja: 機械力学, en: Dynamics, parent: mech-eng}
+- {id: vibration, ja: 振動, en: Vibration, parent: dynamics}
+- {id: solid-mechanics, ja: 材料力学, en: Mechanics of materials, parent: mech-eng}
+- {id: fluid-mechanics, ja: 流体力学, en: Fluid mechanics, parent: mech-eng}
+- {id: thermo, ja: 熱力学・伝熱, en: Thermodynamics and heat transfer, parent: mech-eng}
+- {id: materials, ja: 材料, en: Engineering materials, parent: mech-eng}
+- {id: control, ja: 制御工学, en: Control engineering, parent: mech-eng}
+- {id: measurement, ja: 計測, en: Measurement and sensors, parent: mech-eng}
+
+# ── Neighbouring fields (only what the patents need so far) ──
+- {id: electrical, ja: 電気電子工学, en: Electrical and electronic engineering, parent: null}
+- {id: signal-processing, ja: 信号処理, en: Signal processing, parent: electrical}
+- {id: math, ja: 数学, en: Mathematics, parent: null}
+
+# ── Register ────────────────────────────────────────────
+- {id: patent, ja: 特許用語, en: Patent language, parent: null}

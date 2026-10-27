@@ -1,0 +1,8 @@
+id: s000070
+ja: 図 1 0に示すトータルパワー表示では、縦軸にトータルパワー( (mグs ?)撤はG?)を、横軸に経過時間(秒)が表わされる。
+en: null
+terms:
+- {id: t000115, surface: トータルパワー表示}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

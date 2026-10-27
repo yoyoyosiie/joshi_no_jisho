@@ -1,0 +1,8 @@
+id: s000078
+ja: 主軸回転数R P M及び使用中の工具番号の情報は、工作機械制御衣 3 2から入出力ユニット46 を通じて演算ユニット3 8に取り入れられ、随時NCプログラムからの読み取りが可能である。
+en: null
+terms:
+- {id: t000125, surface: 情報}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

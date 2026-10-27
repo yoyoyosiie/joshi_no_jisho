@@ -1,0 +1,9 @@
+id: s000072
+ja: 演算ュユニット 3 8は、さらに経時的に検出される加工振動の強さを、各加工振動から得られる各加工周波数に対応する色表示で色分けして色列積算表示窓5 4 (後述する)に表示させる色別表示機構として機能する。
+en: null
+terms:
+- {id: t000117, surface: 色別表示機構}
+- {id: t000123, surface: 演算}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

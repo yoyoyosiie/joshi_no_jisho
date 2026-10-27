@@ -8,6 +8,8 @@ Pulls technical terms (with readings) out of Japanese patents for the dictionary
     sudo apt install poppler-utils tesseract-ocr tesseract-ocr-jpn   # macOS: brew install poppler tesseract tesseract-lang
 
 ## Use
+Run these from this folder (`cd tools/patent-vocab`).
+
     python run.py JP2019123456A JP2020012345A -o vocab.csv   # fetch from Google Patents
     python run.py --html saved/*.html -o vocab.csv           # pages you saved from patents.google.com
     python run.py --pdf pdfs/*.pdf -o vocab.csv              # JPO gazette or WIPO (WO) PDFs
@@ -17,6 +19,11 @@ Output `vocab.csv` (opens in Excel): term, reading, freq, n_patents, sources,
 example_ja, english (blank, for you), en_source. `vocab.english.json` holds the
 title and claim 1 of each patent's English family member (US > EP > WO) to
 translate against.
+
+## Into the dictionary
+    python tools/import.py tools/patent-vocab/vocab.csv --jmdict JMdict_e.gz   # from the repo root
+
+Every row becomes a draft term; see `data/README.md` for reviewing them.
 
 ## How it works
 - `pdf.py`: patent PDF -> same sections. Uses the text layer if there is one, otherwise OCRs each page with Tesseract `jpn` at 2x native width (about 1 s/page on 4 cores; cached in `~/.cache/patent-vocab`). Skips drawing sheets and the search report. On a WIPO front page it OCRs the printed English title + abstract into `vocab.english.json`.

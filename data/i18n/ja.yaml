@@ -1,0 +1,11 @@
+# UI strings (Japanese). en.yaml must have exactly the same keys.
+site.title: ジョシの辞書
+site.tagline: 技術用語の和英辞典
+search.placeholder: 日本語・ローマ字・英語で検索
+term.reading: 読み
+term.senses: 意味
+term.sentences: 例文
+term.sources: 出典
+term.draft: 下書き（未確認）
+badge.machine_translation: 機械翻訳
+ui.language: English

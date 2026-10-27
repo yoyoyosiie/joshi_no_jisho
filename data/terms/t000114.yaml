@@ -1,0 +1,25 @@
+id: t000114
+ja: 強弱
+alt: []
+reading: きょうじゃく
+furigana:
+- [強弱, きょうじゃく]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [strength and weakness, (degree of) strength]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: [stress (of a sound), loudness]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

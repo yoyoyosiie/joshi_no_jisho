@@ -1,0 +1,31 @@
+id: t000157
+ja: 問題
+alt: []
+reading: もんだい
+furigana:
+- [問題, もんだい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [question (e.g. on a test), problem]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: &id001 []
+- pos: noun
+  en: ['problem (e.g. societal, political)', question, issue, subject (e.g. of research), case, matter]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+- pos: noun
+  en: [question (i.e. doubt)]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: *id001
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

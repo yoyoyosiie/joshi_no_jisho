@@ -1,0 +1,12 @@
+id: s000005
+ja: 請求項 1 記載の加工状態監視方法において、前記空転周波数、前記基本波、前記高周波、前記余剰周波数及び前記びびり周波数は、前記色別積算表示窓内での互いの重ね合わせ順序が選択されることを特徴とする作業機械の加工状態監視方法。
+en: null
+terms:
+- {id: t000006, surface: 空転周波数}
+- {id: t000012, surface: びびり周波数}
+- {id: t000014, surface: 高周波}
+- {id: t000039, surface: 余剰周波数}
+- {id: t000146, surface: 互い}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

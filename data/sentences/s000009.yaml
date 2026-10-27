@@ -1,0 +1,10 @@
+id: s000009
+ja: 図7 には、エンドミル工具を用いた加工の周波数スベクトラムが示されている。
+en: null
+terms:
+- {id: t000010, surface: 加工}
+- {id: t000090, surface: 周波数スベクトラム}
+- {id: t000109, surface: エンドミル工具}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,20 @@
+id: t000163
+ja: 時間帯
+alt: []
+reading: じかんたい
+furigana:
+- [時間, じかん]
+- [帯, たい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [period of time, time slot, time zone]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

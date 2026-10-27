@@ -1,0 +1,8 @@
+id: s000067
+ja: この周波数スペクトラムでは、加速度(G又はm/ s ?)を縦軸に、フーリエ変換により演算された周波数(Hz)を横軸にしたスペクトラムが表示される。
+en: null
+terms:
+- {id: t000110, surface: スペクトラム}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

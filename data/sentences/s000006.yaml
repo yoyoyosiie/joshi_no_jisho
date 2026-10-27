@@ -1,0 +1,10 @@
+id: s000006
+ja: びびり振動は、「赤色」の色表示に設定される。
+en: null
+terms:
+- {id: t000007, surface: 色表示}
+- {id: t000027, surface: びびり振動}
+- {id: t000086, surface: 赤色}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

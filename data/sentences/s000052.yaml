@@ -1,0 +1,9 @@
+id: s000052
+ja: 従って、加工振動が異常に上昇して、アラームしきい値6 2 、 6 4及び6 6 a を上回ると、別途設定のリピートカウンタ 4 2 にアラーム信号が送られる。
+en: null
+terms:
+- {id: t000073, surface: 別途設定}
+- {id: t000144, surface: アラーム信号}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

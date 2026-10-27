@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "i18n.schema.json",
+  "title": "UI strings",
+  "description": "data/i18n/en.yaml and ja.yaml: flat key -> text. Both files must have the same keys.",
+  "type": "object",
+  "propertyNames": {"pattern": "^[a-z0-9_]+(\\.[a-z0-9_]+)*$"},
+  "additionalProperties": {"type": "string", "minLength": 1}
+}

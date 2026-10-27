@@ -1,0 +1,20 @@
+id: t000150
+ja: 無人化
+alt: []
+reading: むじんか
+furigana:
+- [無人, むじん]
+- [化, か]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: suru-noun
+  en: [full automation, becoming unmanned, making (something) unmanned]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

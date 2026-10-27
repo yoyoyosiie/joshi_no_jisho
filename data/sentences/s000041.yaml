@@ -1,0 +1,10 @@
+id: s000041
+ja: 具体的には、変化表示窓5 3 は、TPFの総和量とN on一TPFの総和基との相対比(Non一TPFの総和基プエPFの総和基)の変化量が、ドットグラフとして経時(毎秒)表示される。
+en: null
+terms:
+- {id: t000058, surface: 総和量}
+- {id: t000075, surface: 総和基}
+- {id: t000076, surface: 相対比}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27

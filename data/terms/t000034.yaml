@@ -1,0 +1,20 @@
+id: t000034
+ja: 工作機械
+alt: []
+reading: こうさくきかい
+furigana:
+- [工作, こうさく]
+- [機械, きかい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [machine tools]
+  en_by: jmdict
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [WO2021/079959]
+added: 2026-10-27
+status: draft

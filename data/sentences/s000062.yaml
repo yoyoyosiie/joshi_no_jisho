@@ -1,0 +1,14 @@
+id: s000062
+ja: この振動監視方法は、加工工具の回転数及び刃数から算出された工具通過周波数でのピーク加速度であるTPF ピークが、周波数スベクトルに予め設定された前記工具通過周波数のピークしきい値であやるTPF しきい値と比較され、前記PF ピークが前記T PF しきい値を越えた回数を、TPEF しきい値越え積算表示部に表示させる工程と、前記工具通過周波数の整数倍の高調波周波数でのピーク加速度である高調波TPF ピ
+en: null
+terms:
+- {id: t000096, surface: 回数}
+- {id: t000103, surface: ピーク加速度}
+- {id: t000104, surface: ピークしきい値}
+- {id: t000105, surface: 積算表示部}
+- {id: t000106, surface: 高調波周波数}
+- {id: t000107, surface: 調波TPF}
+- {id: t000108, surface: 高調波T}
+source: {type: patent, ref: WO2021/079959, url: null, license: null}
+en_by: null
+added: 2026-10-27
