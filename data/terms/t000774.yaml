@@ -1,0 +1,20 @@
+id: t000774
+ja: コマ式
+alt: []
+reading: コマしき
+furigana:
+- [コマ]
+- [式, しき]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [deflector (internal-return) type]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

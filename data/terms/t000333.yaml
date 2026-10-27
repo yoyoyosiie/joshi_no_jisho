@@ -1,0 +1,21 @@
+id: t000333
+ja: 部分断面図
+alt: []
+reading: ぶぶんだんめんず
+furigana:
+- [部分, ぶぶん]
+- [断面, だんめん]
+- [図, ず]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [partial cross-sectional view]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

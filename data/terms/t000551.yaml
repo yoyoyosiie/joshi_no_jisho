@@ -1,0 +1,22 @@
+id: t000551
+ja: 高能率加工条件
+alt: []
+reading: こうのうりつかこうじょうけん
+furigana:
+- [高能, こうのう]
+- [率, りつ]
+- [加工, かこう]
+- [条件, じょうけん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [high-efficiency machining conditions]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

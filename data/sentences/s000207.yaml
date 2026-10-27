@@ -1,0 +1,9 @@
+id: s000207
+ja: 貫通孔4dの周囲には、複数(例えば3つ)のクランク軸取付孔4e(以下、単に取付孔4eという)が周方向に等間隔で設けられている。
+en: null
+terms:
+- {id: t000329, surface: 取付孔}
+- {id: t000432, surface: クランク軸取付孔}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

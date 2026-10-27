@@ -1,0 +1,8 @@
+id: s000184
+ja: このような配置は波形状外周刃の山部6の位相14が一定であり、エンドミルによって切削される被加工材の切削量は各波形状外周刃で同一となる。
+en: null
+terms:
+- {id: t000294, surface: 一定}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

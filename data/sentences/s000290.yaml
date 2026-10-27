@@ -1,0 +1,8 @@
+id: s000290
+ja: このため、使用時には揺動歯車が熱膨張するが、この熱膨張により、揺動歯車の外歯と外筒の内歯との間のすき間が狭くなり、揺動歯車の歯面の面圧が高くなり、その結果、揺動歯車の寿命を低下させるという問題がある。
+en: null
+terms:
+- {id: t000483, surface: 熱膨張}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

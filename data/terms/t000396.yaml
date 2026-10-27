@@ -1,0 +1,23 @@
+id: t000396
+ja: 切り込み量
+alt: []
+reading: きりこみりょう
+furigana:
+- [切, き]
+- [り]
+- [込, こ]
+- [み]
+- [量, りょう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [depth of cut]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

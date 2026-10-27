@@ -1,0 +1,9 @@
+id: s000275
+ja: 前記外周刃には工具先端側2からシャンク側3に向かって波形状外周刃が設けられている。
+en: null
+terms:
+- {id: t000453, surface: 工具先端側}
+- {id: t000555, surface: シャンク側}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

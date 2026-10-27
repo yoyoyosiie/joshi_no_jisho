@@ -1,0 +1,8 @@
+id: s000115
+ja: 従来のエンドミルの位相を等間隔にした場合の切削抵抗図を示す。
+en: null
+terms:
+- {id: t000192, surface: 等間隔}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

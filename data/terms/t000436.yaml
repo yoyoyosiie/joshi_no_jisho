@@ -1,0 +1,21 @@
+id: t000436
+ja: 高炭素鋼製
+alt: []
+reading: こうたんそこうせい
+furigana:
+- [高, こう]
+- [炭素, たんそ]
+- [鋼製, こうせい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [made of high-carbon steel]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

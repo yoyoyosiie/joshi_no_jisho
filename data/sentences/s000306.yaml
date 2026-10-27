@@ -1,0 +1,9 @@
+id: s000306
+ja: さらにエンドミルの再研磨時にも各刃の分割角が異なるため、研削する際の位置あわせ等で問題になることが多かった。
+en: null
+terms:
+- {id: t000534, surface: 再研磨時}
+- {id: t000535, surface: 位置あわせ}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

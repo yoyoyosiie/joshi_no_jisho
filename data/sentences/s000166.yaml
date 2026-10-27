@@ -1,0 +1,9 @@
+id: s000166
+ja: 中央部貫通孔14bには、入力軸8が遊びを持った状態で挿通されている。
+en: null
+terms:
+- {id: t000261, surface: 中央部貫通孔}
+- {id: t000488, surface: 遊び}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

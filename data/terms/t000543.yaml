@@ -1,0 +1,23 @@
+id: t000543
+ja: 切り屑排出量
+alt: []
+reading: きりくずはいしゅつりょう
+furigana:
+- [切, き]
+- [り]
+- [屑, くず]
+- [排出, はいしゅつ]
+- [量, りょう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [chip removal volume, material removal rate]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

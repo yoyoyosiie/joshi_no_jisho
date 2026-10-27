@@ -1,0 +1,13 @@
+id: s000250
+ja: 例えば、アルミニウムなどの切削は切り屑排出が多いため刃数は2枚程度とし、切り屑排出用のチップポケットを大きめに設定し、また、高硬度材の切削は刃数を8枚まで増やし、高送りに対応することができる。
+en: null
+terms:
+- {id: t000416, surface: 高硬度材}
+- {id: t000463, surface: 程度}
+- {id: t000556, surface: アルミニウム}
+- {id: t000557, surface: 切り屑排出}
+- {id: t000558, surface: 切り屑排出用}
+- {id: t000559, surface: チップポケット}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

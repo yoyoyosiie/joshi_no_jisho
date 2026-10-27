@@ -1,0 +1,9 @@
+id: s000152
+ja: 従来例8の不等分割品に関しては送り速度が2800mm/min時に折損した。
+en: null
+terms:
+- {id: t000239, surface: 送り速度}
+- {id: t000250, surface: 不等分割品}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,19 @@
+id: t000246
+ja: 転動
+alt: []
+reading: てんどう
+furigana:
+- [転動, てんどう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [rolling]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

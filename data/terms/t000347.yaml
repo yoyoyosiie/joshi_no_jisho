@@ -1,0 +1,22 @@
+id: t000347
+ja: 高速度工具鋼製
+alt: []
+reading: こうそくどこうぐこうせい
+furigana:
+- [高, こう]
+- [速度, そくど]
+- [工具, こうぐ]
+- [鋼製, こうせい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [made of high-speed steel (HSS)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

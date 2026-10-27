@@ -1,0 +1,10 @@
+id: s000230
+ja: (実施例5)実施例5として切り屑の排出性を確認するため、溝切削による切削テストを行った。
+en: null
+terms:
+- {id: t000374, surface: 溝切削}
+- {id: t000405, surface: 排出性}
+- {id: t000581, surface: 切削テスト}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

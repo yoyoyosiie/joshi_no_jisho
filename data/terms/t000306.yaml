@@ -1,0 +1,20 @@
+id: t000306
+ja: 小円筒部
+alt: []
+reading: しょうえんとうぶ
+furigana:
+- [小円, しょうえん]
+- [筒部, とうぶ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [small cylindrical portion]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

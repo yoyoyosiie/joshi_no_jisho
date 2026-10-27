@@ -1,0 +1,13 @@
+id: s000269
+ja: ボール挿入部11の外径は、ねじ軸1の雄ねじ溝1aの小径部に略等しい径とされるとともに、その下端には、ねじ軸1の上端に係脱自在に嵌合する係合突起部15が設けられている。
+en: null
+terms:
+- {id: t000446, surface: 係合突起部}
+- {id: t000635, surface: ボール挿入部}
+- {id: t000756, surface: 小径部}
+- {id: t000757, surface: 下端}
+- {id: t000758, surface: 上端}
+- {id: t000759, surface: 嵌合}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

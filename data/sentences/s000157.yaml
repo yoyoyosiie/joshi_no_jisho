@@ -1,0 +1,11 @@
+id: s000157
+ja: 複数のボール103が、対向する両ねじ溝間に形成された螺旋状の転走路内を転動自在となるように配置されている。
+en: null
+terms:
+- {id: t000246, surface: 転動}
+- {id: t000257, surface: 転走路内}
+- {id: t000269, surface: 両ねじ溝間}
+- {id: t000500, surface: 螺旋状}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

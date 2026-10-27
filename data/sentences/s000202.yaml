@@ -1,0 +1,8 @@
+id: s000202
+ja: 従来例1として、基準形状外周刃の1/4ピッチごとのそれぞれの波形状外周刃の位相のずれ量の無い波ピッチの0%とした位相が一定のものを作製した。
+en: null
+terms:
+- {id: t000321, surface: ピッチごと}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

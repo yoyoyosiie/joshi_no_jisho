@@ -1,0 +1,20 @@
+id: t000664
+ja: 再研磨
+alt: []
+reading: さいけんま
+furigana:
+- [再, さい]
+- [研磨, けんま]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [regrinding]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,9 @@
+id: s000109
+ja: 尚、塑性変形を行うねじ軸の一部には、熱処理を施さないことが望ましい。
+en: null
+terms:
+- {id: t000186, surface: 塑性変形}
+- {id: t000285, surface: 熱処理}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

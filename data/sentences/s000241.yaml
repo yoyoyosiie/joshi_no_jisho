@@ -1,0 +1,9 @@
+id: s000241
+ja: 荒加工においても加工能率を上げるために、切り込み量を大きくして高能率加工を行うが、びびり振動の問題が生じることが多い。
+en: null
+terms:
+- {id: t000396, surface: 切り込み量}
+- {id: t000518, surface: 加工能率}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

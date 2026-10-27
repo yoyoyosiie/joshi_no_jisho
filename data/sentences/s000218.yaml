@@ -1,0 +1,9 @@
+id: s000218
+ja: 切削条件は回転数を5000回転/min(切削速度125m/min)、送り速度を1 200mm/min(1刃送り量0.06mm)とし、軸方向切り込みを4mm・径方向切り込みを1mmとして、寿命テストを行った。
+en: null
+terms:
+- {id: t000350, surface: 径方向切り込み}
+- {id: t000427, surface: 寿命テスト}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

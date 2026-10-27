@@ -1,0 +1,20 @@
+id: t000714
+ja: 腕関節
+alt: []
+reading: うでかんせつ
+furigana:
+- [腕, うで]
+- [関節, かんせつ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [arm joint (robot)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,10 @@
+id: s000362
+ja: 3つのシャフト部4cは、基板部4aと一体的に設けられており、基板部4aの一主面(内側面)から端板部4b側へ直線的に延びている。
+en: null
+terms:
+- {id: t000724, surface: 主面}
+- {id: t000725, surface: 内側面}
+- {id: t000726, surface: 直線}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

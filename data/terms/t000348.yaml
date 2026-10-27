@@ -1,0 +1,21 @@
+id: t000348
+ja: 硬さHRC
+alt: []
+reading: かたさHRC
+furigana:
+- [硬, かた]
+- [さ]
+- [HRC]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [hardness (HRC)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

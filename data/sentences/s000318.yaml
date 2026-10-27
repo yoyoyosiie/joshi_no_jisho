@@ -1,0 +1,14 @@
+id: s000318
+ja: (実施例1)本発明例1及び2、比較例1、従来例1及び2においては基材はCo含有量が8重量パーセント、WC平均粒径が0.8μmの超硬合金で、工具径8mm、刃長16mm、全長 70mm、シャンク径8mmで刃数は4枚とした。
+en: null
+terms:
+- {id: t000571, surface: Co含有量}
+- {id: t000572, surface: 重量パーセント}
+- {id: t000573, surface: WC平均粒径}
+- {id: t000574, surface: シャンク径}
+- {id: t000692, surface: 基材}
+- {id: t000693, surface: 刃長}
+- {id: t000694, surface: 全長}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -22,7 +22,9 @@ JP_CHAR = r"[々぀-ヿ一-鿿]"
 OCR_WIDTH = 4960
 
 # Repeated page furniture: "WO 2021/079959 17 PCT/JP2020/039803", "(2) JP 2020-123456 A 2020.8.13"
-HEADER = re.compile(r"^\s*(WO\s?\d{4}/|.*PCT/JP|\(\d+\)\s*(JP|特開|特表)|(JP|特開|特表)\s*[\d\-]+\s*[AB]\d?\s)")
+HEADER = re.compile(r"^\s*(WO\s?\d{4}/|.*PCT/JP|\(\d+\)\s*(JP|特開|特表)|(JP|特開|特表)\s*[\d\-‐‑]+\s*[AB]\d?\s)")
+# JPO gazettes print a line number every 10 lines in the margin, and "(2)" page numbers.
+MARGIN = re.compile(r"^\s*(\d0|\(\d+\))\s*$")
 DRAWING_SHEET = re.compile(r"^\s*\S{1,2}\s*/\s*\d{1,2}\s*$")  # "1/6" sheet number on WIPO drawing pages
 TAIL_PAGE = re.compile(r"INTERNATIONAL\s*SEARCH\s*REPORT|国際調査報告|【書類名】\s*図面")
 PARA_NO = re.compile(r"【\s*[\dOoＯ ]{4,6}\s*[】\]1l]?")  # 【0002】, OCR'd as 【00021 or 【0 003】
@@ -62,13 +64,20 @@ def pages(path):
     if cache.exists():
         return cache.read_text(encoding="utf-8").split("\f")
 
-    def one(i):
-        t = _run("pdftotext", "-f", str(i), "-l", str(i), "-enc", "UTF-8", str(path), "-")
-        return t if len(re.findall(JP_CHAR, t)) >= 20 else _ocr_page(path, i, "jpn")
+    def text(i):
+        return _run("pdftotext", "-f", str(i), "-l", str(i), "-enc", "UTF-8", str(path), "-")
+
+    def has_text(t):
+        return len(re.findall(JP_CHAR, t)) >= 20
 
     n = _page_count(path)
-    with ThreadPoolExecutor(os.cpu_count() or 2) as ex:
-        out = list(ex.map(one, range(1, n + 1)))
+    out = [text(i) for i in range(1, n + 1)]
+    # A PDF with a text layer (JPO gazette, Google Patents download): the pages without
+    # text are drawings, and OCR'ing them only makes junk. Only OCR all-scan PDFs.
+    if sum(map(has_text, out)) < n / 2:
+        with ThreadPoolExecutor(os.cpu_count() or 2) as ex:
+            out = list(ex.map(lambda i: out[i - 1] if has_text(out[i - 1]) else _ocr_page(path, i, "jpn"),
+                              range(1, n + 1)))
     CACHE.mkdir(parents=True, exist_ok=True)
     cache.write_text("\f".join(out), encoding="utf-8")
     return out
@@ -76,7 +85,7 @@ def pages(path):
 
 def clean(text):
     text = unicodedata.normalize("NFKC", text)  # full-width digits/letters -> ASCII; 【】 survive
-    text = "\n".join(l for l in text.splitlines() if not HEADER.match(l))
+    text = "\n".join(l for l in text.splitlines() if not (HEADER.match(l) or MARGIN.match(l)))
     text = PARA_NO.sub("\n", text)
     text = re.sub(r"(?m)(^|\s)[「」'|‘’“”]+(?=\s|$)", " ", text)  # OCR specks at line ends
     # Japanese has no spaces: rejoin words split by line breaks or OCR gaps.
@@ -128,13 +137,15 @@ def parse_pdf(path, number=""):
             break  # search report / drawings follow; nothing useful after
         if any(DRAWING_SHEET.match(l) for l in head.splitlines()):
             continue
-        if i == 0 and re.search(r"Title:|Abstract:|\(5[47]\)", pg):
+        # WIPO front page. A JPO gazette's page 1 also has (57), but its claims/abstract are real text.
+        if i == 0 and re.search(r"Title:|Abstract:", pg) or (i == 0 and re.search(r"\(5[47]\)", pg) and "【" not in pg):
             english = _front_english(path)  # bibliographic front page, not body text
             continue
         body.append(pg)
     text = clean("\n".join(body))
 
     p = Patent(number=number or _guess_number("\n".join(raw[:2]), path), lang="ja")
+    p.ocr = len(re.findall(JP_CHAR, _run("pdftotext", "-enc", "UTF-8", str(path), "-"))) < 20 * len(raw) / 2
     p.title = _section(text, r"【発明の名称】", [r"【"])[:100]
     p.abstract = _section(text, r"【要約】|要約書", [r"【選択図】", r"【", r"$"])
     claims = _section(text, r"請求の範囲|特許請求の範囲】", [r"【書類名】", r"明細書", r"要約書", r"【要約】"])

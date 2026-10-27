@@ -1,0 +1,19 @@
+id: t000265
+ja: 処理
+alt: []
+reading: しょり
+furigana:
+- [処理, しょり]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [treatment, processing]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP4688057B2]
+added: 2026-10-27
+status: draft

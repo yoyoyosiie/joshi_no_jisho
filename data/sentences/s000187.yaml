@@ -1,0 +1,11 @@
+id: s000187
+ja: 本発明が対象とする金型加工や部品加工などの加工分野では、被削対象材として構造用鋼、構造用合金鋼、冷間ダイス鋼、熱間ダイス鋼、ステンレス鋼、チタン合金及び超耐熱合金のエンドミルの荒加工で1.5倍程度以上の高能率加工が要望されている。
+en: null
+terms:
+- {id: t000300, surface: 被削対象材}
+- {id: t000402, surface: 金型加工}
+- {id: t000403, surface: 部品加工}
+- {id: t000586, surface: 加工分野}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

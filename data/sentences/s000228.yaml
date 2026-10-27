@@ -1,0 +1,11 @@
+id: s000228
+ja: また、冠状ストッパをねじ軸の両端部に取付けるタイプでは、冠状ストッパ自身がコスト高の原因となると共に、冠状ストッパ自体の抜け止めも必要となる。
+en: null
+terms:
+- {id: t000370, surface: 原因}
+- {id: t000438, surface: コスト高}
+- {id: t000620, surface: 抜け止め}
+- {id: t000748, surface: タイプ}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

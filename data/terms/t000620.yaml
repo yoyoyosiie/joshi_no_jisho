@@ -1,0 +1,22 @@
+id: t000620
+ja: 抜け止め
+alt: []
+reading: ぬけどめ
+furigana:
+- [抜, ぬ]
+- [け]
+- [止, ど]
+- [め]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [retainer, anti-dislodging stop]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

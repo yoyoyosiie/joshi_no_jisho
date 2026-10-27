@@ -1,0 +1,10 @@
+id: s000162
+ja: 入力軸8の先端部の外周面には入力ギア8aが設けられている。
+en: null
+terms:
+- {id: t000252, surface: 入力軸}
+- {id: t000355, surface: 入力ギア}
+- {id: t000729, surface: 先端部}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

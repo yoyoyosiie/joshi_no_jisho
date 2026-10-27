@@ -1,0 +1,9 @@
+id: s000102
+ja: これに対し、揺動歯車14,16は、鉄系材料で構成されている。
+en: null
+terms:
+- {id: t000178, surface: 揺動歯車}
+- {id: t000256, surface: 鉄系材料}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

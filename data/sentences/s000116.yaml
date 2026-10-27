@@ -1,0 +1,10 @@
+id: s000116
+ja: 基板部4aは、外筒2内において軸方向の一端部近傍に配置されている。
+en: null
+terms:
+- {id: t000193, surface: 軸方向}
+- {id: t000243, surface: 基板部}
+- {id: t000597, surface: 一端部近傍}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

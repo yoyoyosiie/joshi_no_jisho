@@ -1,0 +1,18 @@
+id: t000363
+ja: リターンピース取付孔
+alt: []
+reading: リターンピースとりつけあな
+furigana: null
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [return-piece mounting hole]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

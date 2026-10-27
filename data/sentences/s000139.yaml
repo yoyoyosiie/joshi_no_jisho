@@ -1,0 +1,10 @@
+id: s000139
+ja: 第1外歯14aは、揺動歯車14の周方向全体に亘って滑らかに連続する波形状を有している。
+en: null
+terms:
+- {id: t000225, surface: 波形状}
+- {id: t000299, surface: 連続}
+- {id: t000607, surface: 周方向全体}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

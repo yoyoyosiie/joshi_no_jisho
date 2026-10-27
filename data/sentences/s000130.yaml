@@ -1,0 +1,8 @@
+id: s000130
+ja: 従来例1においては等間隔の波ピッチのため、びびり振動が大きく、20m切削時に欠損が生じ、寿命となった。
+en: null
+terms:
+- {id: t000211, surface: 寿命}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

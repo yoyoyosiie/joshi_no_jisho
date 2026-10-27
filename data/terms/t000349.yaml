@@ -1,0 +1,22 @@
+id: t000349
+ja: 熱間ダイス鋼SKD
+alt: []
+reading: ねつかんダイスこうSKD
+furigana:
+- [熱間, ねつかん]
+- [ダイス]
+- [鋼, こう]
+- [SKD]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [hot-work die steel (SKD grade)]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

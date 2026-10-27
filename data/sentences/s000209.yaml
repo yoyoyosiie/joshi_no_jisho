@@ -1,0 +1,9 @@
+id: s000209
+ja: また、特許文献1では、互いに隣接する各外周刃間における位相のずれ量を不均等にし 、不等分割同様の効果でびびり振動を抑制する方法が提案されている。
+en: null
+terms:
+- {id: t000335, surface: 不均等}
+- {id: t000397, surface: 外周刃間}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

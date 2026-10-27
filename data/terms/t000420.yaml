@@ -1,0 +1,21 @@
+id: t000420
+ja: 工具先端方向
+alt: []
+reading: こうぐせんたんほうこう
+furigana:
+- [工具, こうぐ]
+- [先端, せんたん]
+- [方向, ほうこう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [toward the tool tip]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

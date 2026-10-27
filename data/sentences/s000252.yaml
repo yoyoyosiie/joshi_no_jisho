@@ -1,0 +1,9 @@
+id: s000252
+ja: 更に、刃数が奇数となる5枚刃の場合においても、前記特許文献1の仕様では、基準形状外周刃10からの位相14のずれ量15は2つの種類が必要となる。
+en: null
+terms:
+- {id: t000421, surface: 奇数}
+- {id: t000471, surface: 仕様}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

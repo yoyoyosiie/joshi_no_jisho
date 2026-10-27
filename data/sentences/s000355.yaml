@@ -1,0 +1,8 @@
+id: s000355
+ja: 加工後に問題なければ○を記し、折損または各送り速度で1m切削後に欠損またはチッピングが生じていれば×を示し送り速度3200mm/min以上のものは良好とした。
+en: null
+terms:
+- {id: t000701, surface: 加工後}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

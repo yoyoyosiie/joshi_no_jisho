@@ -1,0 +1,20 @@
+id: t000216
+ja: 従来技術
+alt: []
+reading: じゅうらいぎじゅつ
+furigana:
+- [従来, じゅうらい]
+- [技術, ぎじゅつ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [prior art]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP2019032088A, JP4688057B2]
+added: 2026-10-27
+status: draft

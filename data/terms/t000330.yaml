@@ -1,0 +1,20 @@
+id: t000330
+ja: 偏心回転
+alt: []
+reading: へんしんかいてん
+furigana:
+- [偏心, へんしん]
+- [回転, かいてん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [eccentric rotation]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

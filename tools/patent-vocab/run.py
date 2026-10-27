@@ -61,7 +61,8 @@ def main():
                 print(f"skip English {en}: {e}")
 
     docs = [(p.number, "。".join([p.title, p.abstract, *p.claims, p.description])) for p in patents]
-    terms = [t for t in extract.extract(docs) if t["freq"] >= a.min_freq]
+    ocr = {p.number for p in patents if getattr(p, "ocr", False)}
+    terms = [t for t in extract.extract(docs, ocr) if t["freq"] >= a.min_freq]
 
     with open(a.out, "w", newline="", encoding="utf-8-sig") as f:  # BOM so Excel reads UTF-8
         w = csv.writer(f)

@@ -1,0 +1,20 @@
+id: t000459
+ja: 切削力
+alt: []
+reading: せっさくりょく
+furigana:
+- [切削, せっさく]
+- [力, りょく]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [cutting force]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

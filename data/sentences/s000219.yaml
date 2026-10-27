@@ -1,0 +1,13 @@
+id: s000219
+ja: 本実施形態の偏心揺動型歯車装置(以下、歯車装置と称する)1は、例えばロボットの旋回胴や腕関節等の旋回部、各種工作機械の旋回部等に減速機として適用されるものである。
+en: null
+terms:
+- {id: t000352, surface: ロボット}
+- {id: t000482, surface: 減速機}
+- {id: t000486, surface: 旋回部}
+- {id: t000592, surface: 各種工作機械}
+- {id: t000713, surface: 旋回胴}
+- {id: t000714, surface: 腕関節}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

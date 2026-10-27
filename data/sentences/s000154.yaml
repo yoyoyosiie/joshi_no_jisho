@@ -1,0 +1,9 @@
+id: s000154
+ja: それによりオーバーストローク時にナット2がねじ軸1から脱落する恐れを回避できる。
+en: null
+terms:
+- {id: t000241, surface: オーバーストローク時}
+- {id: t000332, surface: 恐れ}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

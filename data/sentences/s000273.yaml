@@ -1,0 +1,10 @@
+id: s000273
+ja: 入力軸8は、図略の駆動モータの駆動力が入力される入力部として機能するものである 。
+en: null
+terms:
+- {id: t000451, surface: 駆動力}
+- {id: t000599, surface: 駆動モータ}
+- {id: t000728, surface: 入力部}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

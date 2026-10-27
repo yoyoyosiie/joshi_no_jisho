@@ -1,0 +1,19 @@
+id: t000237
+ja: 素材
+alt: []
+reading: そざい
+furigana:
+- [素材, そざい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [raw material, stock]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

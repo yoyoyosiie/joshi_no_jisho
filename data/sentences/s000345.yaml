@@ -1,0 +1,14 @@
+id: s000345
+ja: このボール挿入治具10は、内孔部を縦向きにして位置決めされるナット2に対して相対的に上下方向に離接自在となり、ナット2 の内孔部内に挿入可能なボール挿入ノズル11と、ナット2の外周部を保持可能なガイド筒12を備えている。
+en: null
+terms:
+- {id: t000632, surface: 位置決め}
+- {id: t000633, surface: 上下方向}
+- {id: t000634, surface: 内孔部内}
+- {id: t000751, surface: 内孔部}
+- {id: t000752, surface: 縦向き}
+- {id: t000753, surface: 外周部}
+- {id: t000754, surface: 保持}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

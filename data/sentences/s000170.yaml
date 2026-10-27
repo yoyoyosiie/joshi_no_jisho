@@ -1,0 +1,10 @@
+id: s000170
+ja: 端板部4bの径方向中央部には貫通孔4fが設けられている。
+en: null
+terms:
+- {id: t000267, surface: 端板部}
+- {id: t000328, surface: 貫通孔}
+- {id: t000354, surface: 径方向中央部}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

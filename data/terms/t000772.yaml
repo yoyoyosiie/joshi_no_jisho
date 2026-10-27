@@ -1,0 +1,20 @@
+id: t000772
+ja: 歪み
+alt: []
+reading: ゆがみ
+furigana:
+- [歪, ゆが]
+- [み]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [distortion, strain]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

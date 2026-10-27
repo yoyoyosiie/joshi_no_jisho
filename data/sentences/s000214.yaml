@@ -1,0 +1,9 @@
+id: s000214
+ja: このような従来の波形状やニック付きの外周刃を有するエンドミルは、普通刃エンドミルと比較して、切り屑を分断しやすく切削抵抗を低減して加工ができるため、工具径方向の切り込み量を大きくでき、高能率加工が可能である。
+en: null
+terms:
+- {id: t000343, surface: ニック付き}
+- {id: t000517, surface: 工具径方向}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

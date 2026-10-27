@@ -1,0 +1,20 @@
+id: t000707
+ja: 焼入材
+alt: []
+reading: やきいれざい
+furigana:
+- [焼入, やきいれ]
+- [材, ざい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [hardened material]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

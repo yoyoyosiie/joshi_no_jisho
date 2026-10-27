@@ -1,0 +1,9 @@
+id: s000198
+ja: このことは、切削時の回転数に刃数を掛けた周期で切削力が掛かり、この周期の周波数で共振が起こりびびり振動と繋がる。
+en: null
+terms:
+- {id: t000315, surface: 周期}
+- {id: t000459, surface: 切削力}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

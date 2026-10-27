@@ -1,0 +1,23 @@
+id: t000230
+ja: 偏心揺動型歯車装置
+alt: []
+reading: へんしんようどうがたはぐるまそうち
+furigana:
+- [偏心, へんしん]
+- [揺動, ようどう]
+- [型, がた]
+- [歯車, はぐるま]
+- [装置, そうち]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [eccentric oscillating gear device, RV-type (cycloidal) reducer]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

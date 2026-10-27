@@ -1,0 +1,10 @@
+id: s000311
+ja: 本発明は、特に加工目的として推奨される被加工材は40HRCを超える焼き入れ材であり、高速度工具鋼製のエンドミルでは工具の形状がいかなるものでも高能率加工条件では極端に工具寿命が短くなり加工は実質的に困難であるものを対象にしている。
+en: null
+terms:
+- {id: t000550, surface: 加工目的}
+- {id: t000551, surface: 高能率加工条件}
+- {id: t000676, surface: 実質的}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

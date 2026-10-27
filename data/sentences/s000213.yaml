@@ -1,0 +1,9 @@
+id: s000213
+ja: 一方、ねじ軸1とナット2は螺合を始め、この間ボール3は循環路に保持されたままである。
+en: null
+terms:
+- {id: t000342, surface: 循環路}
+- {id: t000767, surface: 螺合}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

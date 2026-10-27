@@ -1,0 +1,9 @@
+id: s000188
+ja: 切削条件は回転数を8000回転/min(切削速度200m/min)、送り速度を2000mm /min(1刃送り量0.06mm)とし、軸方向切り込みを8mmとした。
+en: null
+terms:
+- {id: t000302, surface: 軸方向切り込み}
+- {id: t000376, surface: 送り量}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

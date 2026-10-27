@@ -1,0 +1,9 @@
+id: s000260
+ja: 各伝達歯車20は、クランク軸10の回転軸と同じ軸回りにこのクランク軸10と一体的に回転する。
+en: null
+terms:
+- {id: t000434, surface: 一体的}
+- {id: t000737, surface: 回転軸}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

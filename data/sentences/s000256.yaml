@@ -1,0 +1,9 @@
+id: s000256
+ja: 用いた試料はすべて(TiAl) N系にSiを含有させた硬質皮膜を施した。
+en: null
+terms:
+- {id: t000426, surface: 試料}
+- {id: t000575, surface: 硬質皮膜}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

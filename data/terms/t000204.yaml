@@ -1,0 +1,20 @@
+id: t000204
+ja: 径方向
+alt: []
+reading: けいほうこう
+furigana:
+- [径, けい]
+- [方向, ほうこう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [radial direction]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A, JP4688057B2]
+added: 2026-10-27
+status: draft

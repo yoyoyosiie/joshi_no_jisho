@@ -1,0 +1,21 @@
+id: t000343
+ja: ニック付き
+alt: []
+reading: ニックつき
+furigana:
+- [ニック]
+- [付, つ]
+- [き]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [nicked]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

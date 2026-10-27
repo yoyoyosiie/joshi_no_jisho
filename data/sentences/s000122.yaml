@@ -1,0 +1,9 @@
+id: s000122
+ja: これにより、クランク軸10は、基板部4a及び端板部4bに回転可能に支持されている。
+en: null
+terms:
+- {id: t000201, surface: 回転}
+- {id: t000202, surface: クランク軸}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

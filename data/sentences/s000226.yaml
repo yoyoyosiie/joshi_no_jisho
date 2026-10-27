@@ -1,0 +1,13 @@
+id: s000226
+ja: ボール3の挿入が終えると、上方から挿入ロッド17を降下させて確実なボール挿入を図った後、下方から垂直姿勢のねじ軸1を回転させながら上昇させ、その上端部を係合突起部15に係合させる。
+en: null
+terms:
+- {id: t000364, surface: 挿入ロッド}
+- {id: t000389, surface: 上方}
+- {id: t000506, surface: 下方}
+- {id: t000638, surface: ボール挿入}
+- {id: t000639, surface: 垂直姿勢}
+- {id: t000765, surface: 上端部}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

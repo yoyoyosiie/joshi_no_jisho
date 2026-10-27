@@ -1,0 +1,9 @@
+id: s000161
+ja: ここで、特に研削時間の異なる刃溝研削の時間を測定した。
+en: null
+terms:
+- {id: t000251, surface: 研削時間}
+- {id: t000325, surface: 刃溝研削}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

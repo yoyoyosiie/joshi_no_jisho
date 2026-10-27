@@ -1,0 +1,20 @@
+id: t000613
+ja: 電動アクチュエータ
+alt: []
+reading: でんどうアクチュエータ
+furigana:
+- [電動, でんどう]
+- [アクチュエータ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [electric actuator]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

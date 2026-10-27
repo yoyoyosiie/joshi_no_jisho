@@ -1,0 +1,20 @@
+id: t000369
+ja: 加工中
+alt: []
+reading: かこうちゅう
+furigana:
+- [加工, かこう]
+- [中, ちゅう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [during machining]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

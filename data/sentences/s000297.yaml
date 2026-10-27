@@ -1,0 +1,12 @@
+id: s000297
+ja: そしてこのボール供給路16は、ボール挿入ノズル11の上面に開口する入口からボール3の供給を受け 、中間側面に開口する出口から送り出すことが出来るように構成され、上方の入口には不図示のフィーダ部が接続されている。
+en: null
+terms:
+- {id: t000507, surface: 入口}
+- {id: t000636, surface: 中間側面}
+- {id: t000637, surface: フィーダ部}
+- {id: t000760, surface: 上面}
+- {id: t000761, surface: 出口}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

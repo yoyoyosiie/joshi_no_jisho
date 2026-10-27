@@ -1,0 +1,11 @@
+id: s000108
+ja: ナット2には、ボール3の循環用のチューブ 4が設けられている。
+en: null
+terms:
+- {id: t000185, surface: ナット}
+- {id: t000197, surface: ボール}
+- {id: t000362, surface: チューブ}
+- {id: t000501, surface: 循環用}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

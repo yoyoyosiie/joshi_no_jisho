@@ -1,0 +1,10 @@
+id: s000243
+ja: ニック付き刃形においてもニックのピッチ8毎にニックの深さ9の溝が入った形状を繰り返し、切り屑を分断できる刃形となる 。
+en: null
+terms:
+- {id: t000400, surface: 深さ}
+- {id: t000417, surface: 刃形}
+- {id: t000561, surface: ニック付き刃形}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

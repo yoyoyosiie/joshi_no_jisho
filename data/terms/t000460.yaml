@@ -1,0 +1,19 @@
+id: t000460
+ja: 増減
+alt: []
+reading: ぞうげん
+furigana:
+- [増減, ぞうげん]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [increase and decrease, fluctuation]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

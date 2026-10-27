@@ -1,0 +1,18 @@
+id: t000719
+ja: 主軸受
+alt: []
+reading: しゅじくうけ
+furigana: null
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [main bearing]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2019032088A]
+added: 2026-10-27
+status: draft

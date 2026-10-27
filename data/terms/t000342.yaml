@@ -1,0 +1,20 @@
+id: t000342
+ja: 循環路
+alt: []
+reading: じゅんかんろ
+furigana:
+- [循環, じゅんかん]
+- [路, ろ]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [circulation path, return path]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP4688057B2]
+added: 2026-10-27
+status: draft

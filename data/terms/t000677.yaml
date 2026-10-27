@@ -1,0 +1,20 @@
+id: t000677
+ja: 危険性
+alt: []
+reading: きけんせい
+furigana:
+- [危険, きけん]
+- [性, せい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [risk]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

@@ -1,0 +1,9 @@
+id: s000283
+ja: 結果として、従来例8の不等分割品は、溝切削にて送りを上げて加工すると切り屑が大きくなっていき小さい刃溝であれば切り屑詰まりを生じ、刃欠けや欠損となる。
+en: null
+terms:
+- {id: t000467, surface: 送り}
+- {id: t000702, surface: 刃欠け}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

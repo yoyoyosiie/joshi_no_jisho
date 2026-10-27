@@ -1,0 +1,10 @@
+id: s000206
+ja: 偏心揺動型歯車装置では、使用時にキャリア内の温度が外筒の温度よりも高くなる。
+en: null
+terms:
+- {id: t000327, surface: 温度}
+- {id: t000380, surface: 使用時}
+- {id: t000591, surface: キャリア内}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

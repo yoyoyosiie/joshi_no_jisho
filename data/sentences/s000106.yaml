@@ -1,0 +1,9 @@
+id: s000106
+ja: ねじ軸1の外周面には、雄ねじ溝1aが形成されている。
+en: null
+terms:
+- {id: t000182, surface: ねじ軸}
+- {id: t000212, surface: 外周面}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

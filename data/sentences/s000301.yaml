@@ -1,0 +1,10 @@
+id: s000301
+ja: 特にエンドミルの軸心から外周面の周方向に隣接する2枚の切れ刃までの線分で挟まれる分割角が切れ刃ごとに等しい等分割エンドミルは、製造が極めて容易であるメリットがあるが、加工中に共振が起こり、びびり振動が生じやすい。
+en: null
+terms:
+- {id: t000519, surface: 切れ刃ごと}
+- {id: t000520, surface: メリット}
+- {id: t000651, surface: 線分}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

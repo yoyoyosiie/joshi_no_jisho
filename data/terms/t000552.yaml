@@ -1,0 +1,21 @@
+id: t000552
+ja: 耐摩耗性
+alt: []
+reading: たいまもうせい
+furigana:
+- [耐, たい]
+- [摩耗, まもう]
+- [性, せい]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [wear resistance]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

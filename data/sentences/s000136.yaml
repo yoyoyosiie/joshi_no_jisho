@@ -1,0 +1,8 @@
+id: s000136
+ja: 従来のエンドミルに不等分割を採用した場合の切削抵抗図を示す。
+en: null
+terms:
+- {id: t000222, surface: 不等分割}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

@@ -1,0 +1,10 @@
+id: s000137
+ja: キャリア4は、外筒2に対して同じ軸回りに相対回転する。
+en: null
+terms:
+- {id: t000223, surface: キャリア}
+- {id: t000383, surface: 軸回り}
+- {id: t000431, surface: 相対回転}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

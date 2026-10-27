@@ -1,0 +1,10 @@
+id: s000189
+ja: これに対し、特許文献1には、雄ねじ溝の両端を切り上げることで、ボールが転送する転走路を縮径し、オーバーストローク時にも、ねじ軸とナットとの分離防止を図ることができるボールねじ機構が開示されている。
+en: null
+terms:
+- {id: t000303, surface: 転走路}
+- {id: t000744, surface: 両端}
+- {id: t000745, surface: 縮径}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

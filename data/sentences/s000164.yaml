@@ -1,0 +1,9 @@
+id: s000164
+ja: カシメ治具を用いて半径方向内方から押圧し塑性変形させる部位については、防炭処理を施すことが好ましい。
+en: null
+terms:
+- {id: t000255, surface: カシメ治具}
+- {id: t000292, surface: 半径方向内方}
+source: {type: patent, ref: JP4688057B2, url: null, license: null}
+en_by: null
+added: 2026-10-27

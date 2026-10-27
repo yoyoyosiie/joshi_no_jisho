@@ -1,0 +1,9 @@
+id: s000135
+ja: 特に高速切削においては共振が生じやすく、びびり振動が大きくなる。
+en: null
+terms:
+- {id: t000220, surface: 高速切削}
+- {id: t000314, surface: 共振}
+source: {type: patent, ref: JP2010269437A, url: null, license: null}
+en_by: null
+added: 2026-10-27

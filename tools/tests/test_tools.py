@@ -152,7 +152,7 @@ class ExtractFlagsTest(unittest.TestCase):
         self.extract = extract
 
     def terms(self, text):
-        return {t["term"]: t for t in self.extract.extract([("JP1", text)])}
+        return {t["term"]: t for t in self.extract.extract([("JP1", text)], ocr_sources={"JP1"})}
 
     def test_flags(self):
         t = self.terms("経時変化を測定する。被削材を加工する。ワークWを固定する。ワソークを固定する。"
@@ -160,9 +160,15 @@ class ExtractFlagsTest(unittest.TestCase):
         self.assertEqual(t["経時変化"]["reading"], "けいじへんか")
         self.assertEqual(t["経時変化"]["flags"], ["reading-fixed"])
         self.assertEqual(t["被削材"]["reading"], "ひさくざい")  # 被 prefix is kept
+        self.assertEqual(self.terms("内歯ピンを入れる。")["内歯ピン"]["reading"], "うちばピン")
         self.assertNotIn("ワークW", t)                        # drawing label dropped
         self.assertEqual(t["ワーク"]["flags"], [])
         self.assertIn("ocr?", t["ワソーク"]["flags"])
+
+    def test_no_ocr_flags_on_text_layer(self):
+        t = {t["term"]: t for t in self.extract.extract([("JP1", "ワソークを固定する。5%以下にする。")])}
+        self.assertEqual(t["ワソーク"]["flags"], [])
+        self.assertNotIn("%以下", t)  # unit tail of a number is dropped
 
 
 class JmdictTest(unittest.TestCase):

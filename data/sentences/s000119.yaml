@@ -1,0 +1,10 @@
+id: s000119
+ja: 外筒2は、多数の内歯ピン3を有している。
+en: null
+terms:
+- {id: t000198, surface: 外筒}
+- {id: t000233, surface: 内歯ピン}
+- {id: t000297, surface: 多数}
+source: {type: patent, ref: JP2019032088A, url: null, license: null}
+en_by: null
+added: 2026-10-27

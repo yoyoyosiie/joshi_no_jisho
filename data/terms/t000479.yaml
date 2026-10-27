@@ -1,0 +1,19 @@
+id: t000479
+ja: 比較
+alt: []
+reading: ひかく
+furigana:
+- [比較, ひかく]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [comparison]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

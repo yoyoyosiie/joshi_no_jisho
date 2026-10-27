@@ -1,0 +1,21 @@
+id: t000415
+ja: 全体概観図
+alt: []
+reading: ぜんたいがいかんず
+furigana:
+- [全体, ぜんたい]
+- [概観, がいかん]
+- [図, ず]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [overall view]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft

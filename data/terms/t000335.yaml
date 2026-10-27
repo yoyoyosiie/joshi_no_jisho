@@ -1,0 +1,20 @@
+id: t000335
+ja: 不均等
+alt: []
+reading: ふきんとう
+furigana:
+- [不, ふ]
+- [均等, きんとう]
+pitch: {value: null, source: null, verified: false}
+senses:
+- pos: noun
+  en: [unequal, uneven]
+  en_by: machine
+  def_en: null
+  def_ja: null
+  tags: []
+card_sentence: null
+images: []
+sources: [JP2010269437A]
+added: 2026-10-27
+status: draft
