@@ -160,6 +160,7 @@ class ExtractFlagsTest(unittest.TestCase):
         self.assertEqual(t["経時変化"]["reading"], "けいじへんか")
         self.assertEqual(t["経時変化"]["flags"], ["reading-fixed"])
         self.assertEqual(t["被削材"]["reading"], "ひさくざい")  # 被 prefix is kept
+        self.assertEqual(self.terms("内歯ピンを入れる。")["内歯ピン"]["reading"], "うちばピン")
         self.assertNotIn("ワークW", t)                        # drawing label dropped
         self.assertEqual(t["ワーク"]["flags"], [])
         self.assertIn("ocr?", t["ワソーク"]["flags"])
