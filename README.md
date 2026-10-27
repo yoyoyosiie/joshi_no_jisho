@@ -3,7 +3,7 @@
 A Japanese–English dictionary of technical / engineering / STEM terms, built
 for studying and exporting to Anki. Plan and decisions: [docs/handoff.md](docs/handoff.md).
 
-**Status: Phase 1 (MVP website).** 175 draft terms from one machining patent,
+**Status: Phase 1 (MVP website).** 779 draft terms from four machining patents,
 a searchable website with term pages, EN/JA interface, study lists and Anki export.
 Live at https://yoyoyosiie.github.io/joshi_no_jisho/ once GitHub Pages is switched on
 (see "Publishing" below).

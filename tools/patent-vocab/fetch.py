@@ -33,8 +33,14 @@ class Patent:
 def _allowed(url):
     global _robots
     if _robots is None:
-        _robots = urllib.robotparser.RobotFileParser(BASE + "/robots.txt")
-        _robots.read()
+        # Fetched by hand: urllib turns Google's 503 bot block into "disallow all",
+        # which then looks like a robots.txt rule instead of a block.
+        r = requests.get(BASE + "/robots.txt", headers={"User-Agent": UA}, timeout=30)
+        if r.status_code != 200:
+            raise RuntimeError(f"Google Patents answered {r.status_code}; it blocks automated requests "
+                               "from cloud servers. Save the page or PDF and use --html / --pdf instead.")
+        _robots = urllib.robotparser.RobotFileParser()
+        _robots.parse(r.text.splitlines())
     return _robots.can_fetch(UA, url)
 
 
