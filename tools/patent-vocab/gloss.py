@@ -124,9 +124,12 @@ def main():
         if not key:
             raise SystemExit("Set ANTHROPIC_API_KEY, or use --prompt-only / --apply.")
         glosses = {}
-        for i, p in enumerate(prompts(todo, english), 1):
-            print(f"batch {i}...")
-            glosses.update(ask(p, key, a.model))
+        try:
+            for i, p in enumerate(prompts(todo, english), 1):
+                print(f"batch {i}...")
+                glosses.update(ask(p, key, a.model))
+        except Exception as e:  # keep the batches already paid for; a re-run only asks for blank rows
+            print(f"batch {i} failed ({e}); saving what came back so far. Re-run to finish.")
 
     n = apply(rows, glosses, a.by)
     write_csv(a.out or a.csv, rows)

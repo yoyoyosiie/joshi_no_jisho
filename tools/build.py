@@ -99,7 +99,7 @@ def clean(s):
 
 def anki_fields(t, sentence, tag_names, roots):
     """The 10 fields of the Anki note (order = docs/anki.md)."""
-    fg = t["furigana"] or ([[t["ja"], t["reading"]]] if KANJI.search(t["ja"]) else [[t["ja"]]])
+    fg = t.get("furigana") or ([[t["ja"], t["reading"]]] if KANJI.search(t["ja"]) else [[t["ja"]]])
     sense = t["senses"][0]
     gloss = "; ".join(", ".join(s["en"]) for s in t["senses"] if s["en"])
     tags = sense.get("tags") or []
@@ -158,9 +158,9 @@ def build(verbose=False):
         sentences[s["id"]] = s
 
     # Term -> its sentences, ordered by date added, then id (docs/handoff.md section 4).
+    by_date = sorted(sentences.values(), key=lambda s: (s["added"], s["id"]))
     for t in terms.values():
-        t["sentences"] = [sid for sid, s in sorted(sentences.items(), key=lambda kv: (kv[1]["added"], kv[0]))
-                          if t["id"] in s["spans"] or t["id"] in [x["id"] for x in s["terms"]]]
+        t["sentences"] = [s["id"] for s in by_date if any(x["id"] == t["id"] for x in s["terms"])]
         t["card"] = t.get("card_sentence") or (t["sentences"][0] if t["sentences"] else None)
         t["tags_all"] = sorted({a for s in t["senses"] for tag in s.get("tags", []) for a in roots[tag]})
         t["anki"] = anki_fields(t, sentences.get(t["card"]), tag_by_id, roots)

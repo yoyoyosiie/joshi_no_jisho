@@ -208,6 +208,25 @@ class BuildTest(unittest.TestCase):
         self.assertEqual(segs[0], ["経時", "けいじ"])  # the term's own (corrected) reading wins
         self.assertEqual("".join(p[0] for p in segs), ja)
 
+    def test_anki_fields_without_optional_furigana(self):
+        # A hand-written term may leave out furigana (the schema allows it).
+        t = {"id": "t1", "ja": "振動", "reading": "しんどう", "senses": [{"pos": "noun", "en": ["vibration"]}]}
+        self.assertEqual(build.anki_fields(t, None, {}, {})["TermFurigana"], "振動[しんどう]")
+
+
+class GlossTest(unittest.TestCase):
+    def test_apply_keeps_typed_english_and_flags_empty_answers(self):
+        sys.path.insert(0, str(TOOLS / "patent-vocab"))
+        import gloss
+        rows = [{"term": "振動", "english": "", "flags": ""},
+                {"term": "工具", "english": "tool", "en_by": "human", "flags": ""},
+                {"term": "警告城", "english": "", "flags": "ocr?"}]
+        n = gloss.apply(rows, {"振動": ["vibration"], "工具": ["cutter"], "警告城": []}, "machine")
+        self.assertEqual(n, 1)
+        self.assertEqual((rows[0]["english"], rows[0]["en_by"]), ("vibration", "machine"))
+        self.assertEqual(rows[1]["english"], "tool")  # never overwrites what a human typed
+        self.assertEqual(rows[2]["flags"], "not-a-term? ocr?")
+
 
 if __name__ == "__main__":
     unittest.main()
