@@ -187,11 +187,40 @@ JIS standard text. Credit every source in `ATTRIBUTION.md` and on the site.
 - [x] `import.py`; `tags.yaml` v1 (mechanical engineering / machining tree first).
 - [x] Import `WO2021-079959_vocab.csv` (175 rows) as drafts to prove the path.
 
+**Phase 2**: `.apkg` with the note type and CSS bundled (genanki in Python,
+  or a browser-side equivalent).
+- **Must**: GUID = term id, so re-importing updates cards instead of
+  duplicating them and wiping review history.
+
+## 7. Data sources and licensing
+
+| Need | Source | License | Notes |
+| --- | --- | --- | --- |
+| Stroke order | [KanjiVG](https://github.com/KanjiVG/kanjivg) | CC BY-SA 3.0 (checked) | Per kanji, animated SVG. |
+| Pitch accent | [Kanjium](https://github.com/mifunetoshiro/kanjium) `accents.txt` | CC BY-SA 4.0 (checked) | Common words only; compound technical terms mostly missing. Leave blank or hand-enter with `verified: false`. |
+| Furigana split | [JmdictFurigana](https://github.com/Doublevil/JmdictFurigana) | Same as JMdict (checked) | Fall back to Sudachi. |
+| Seed glosses | [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) | CC BY-SA 4.0 (from memory, verify) | Field tags {engr} {mech} {comp}. |
+| Sentences | Tatoeba | Text CC BY 2.0 FR (from memory, verify) | Little technical text. |
+| Sentences | Patents via `tools/patent-vocab` | Reuse terms not verified | JA only; EN family text is not sentence-parallel, so translate (MT allowed, flagged). |
+| Audio | Browser Web Speech API | n/a | Phase 3. No recorded audio source exists for technical terms. |
+
+Do not use or scrape: OJAD (no open license found; personal reference only),
+NHK / Shinmeikai accent dictionaries, Forvo, commercial dictionary definitions,
+JIS standard text. Credit every source in `ATTRIBUTION.md` and on the site.
+
+## 8. Phases
+
+**Phase 0: foundation**
+- [x] Layout above; move `patent-vocab/` to `tools/`; licenses; README with setup.
+- [x] JSON Schemas, `validate.py`, CI on every PR.
+- [x] `import.py`; `tags.yaml` v1 (mechanical engineering / machining tree first).
+- [x] Import `WO2021-079959_vocab.csv` (175 rows) as drafts to prove the path.
+
 **Phase 1: MVP** (done = josie can study ~100 reviewed terms from it)
-- [ ] Term page: headword + furigana, reading, senses, tags, linked sentences with highlighted terms, sources.
-- [ ] One search box (kanji / kana / romaji / English) + tag tree filter.
-- [ ] EN/JA UI toggle.
-- [ ] Lists + Anki CSV export per section 6.
+- [x] Term page: headword + furigana, reading, senses, tags, linked sentences with highlighted terms, sources.
+- [x] One search box (kanji / kana / romaji / English) + tag tree filter.
+- [x] EN/JA UI toggle.
+- [x] Lists + Anki CSV export per section 6.
 - [ ] Deployed to GitHub Pages.
 
 **Phase 2**: Kanjium pitch accent + pitch graph; KanjiVG stroke order; images

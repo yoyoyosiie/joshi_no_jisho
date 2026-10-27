@@ -1,0 +1,72 @@
+---
+// "My lists": personal lists live in the browser (src/scripts/lists.ts), so
+// this page is filled in by src/scripts/lists-page.ts. Curated lists from
+// data/lists/ are shown below them.
+import Base from "../../layouts/Base.astro";
+import { LANGS, REPO, dict, t, type Lang } from "../../lib/dict";
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+---
+<Base lang={lang} title={t(lang, "lists.title")}>
+  <h1>{t(lang, "lists.title")}</h1>
+  <p class="muted small">{t(lang, "lists.intro")}</p>
+
+  <div class="toolbar">
+    <select id="which" aria-label={t(lang, "lists.title")}></select>
+    <label class="file">
+      <input type="file" id="import" accept=".json,application/json" hidden />
+      <span class="button">{t(lang, "lists.import_file")}</span>
+    </label>
+  </div>
+
+  <section id="current" hidden>
+    <div class="toolbar">
+      <button id="anki" class="primary">{t(lang, "lists.export_anki")}</button>
+      <button id="export">{t(lang, "lists.export_file")}</button>
+      <button id="rename">{t(lang, "lists.rename")}</button>
+      <button id="delete">{t(lang, "lists.delete")}</button>
+    </div>
+    <ul id="terms"></ul>
+  </section>
+  <p id="empty" class="muted" hidden>{t(lang, "lists.empty")}</p>
+
+  <p class="small"><a href={`${REPO}/blob/main/docs/anki.md`}>{t(lang, "lists.anki_help")}</a></p>
+
+  {dict.lists.length > 0 && (
+    <section>
+      <h2>{t(lang, "lists.curated")}</h2>
+      <ul class="curated">
+        {dict.lists.map((l) => (
+          <li>
+            <strong>{l.name[lang]}</strong> <span class="muted">({l.terms.length})</span>
+            {l.description && <p class="small">{l.description[lang]}</p>}
+            <button class="curated-anki" data-name={l.name[lang]} data-ids={l.terms.join(",")}>
+              {t(lang, "lists.export_anki")}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<script>
+  import "../../scripts/lists-page";
+</script>
+
+<style>
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+  .button { display: inline-block; border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 10px; cursor: pointer; background: var(--surface); }
+  .button:hover { border-color: var(--accent); }
+  #terms, .curated { list-style: none; padding: 0; }
+  .curated li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+</style>
+
+<style is:global>
+  #terms li { display: flex; gap: 12px; align-items: baseline; padding: 8px 0; border-bottom: 1px solid var(--line); }
+  #terms li a { text-decoration: none; font-weight: 600; font-size: 1.1rem; }
+  #terms .gloss { flex: 1; color: var(--muted); }
+</style>

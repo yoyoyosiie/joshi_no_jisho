@@ -1,0 +1,25 @@
+{
+  "name": "joshi-no-jisho-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "python ../tools/build.py",
+    "dev": "npm run data && astro dev",
+    "build": "npm run data && astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "node --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "astro": "^7.4.2",
+    "wanakana": "^5.3.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^24.19.2",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  }
+}

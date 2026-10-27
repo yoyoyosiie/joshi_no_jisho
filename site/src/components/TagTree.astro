@@ -1,0 +1,26 @@
+---
+// Nested checkboxes for the tag tree in data/tags.yaml. Calls itself for children.
+import { tagChildren, type Lang } from "../lib/dict";
+
+interface Props {
+  lang: Lang;
+  parent?: string | null;
+}
+const { lang, parent = null } = Astro.props;
+const tags = tagChildren(parent);
+---
+{tags.length > 0 && (
+  <ul>
+    {tags.map((tag) => (
+      <li>
+        <label><input type="checkbox" name="tag" value={tag.id} /> {tag[lang]}</label>
+        <Astro.self lang={lang} parent={tag.id} />
+      </li>
+    ))}
+  </ul>
+)}
+
+<style>
+  ul { list-style: none; margin: 0; padding-left: 1.1rem; }
+  label { cursor: pointer; }
+</style>

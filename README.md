@@ -3,9 +3,10 @@
 A Japanese–English dictionary of technical / engineering / STEM terms, built
 for studying and exporting to Anki. Plan and decisions: [docs/handoff.md](docs/handoff.md).
 
-**Status: Phase 0 (foundation).** The data format, checks and import are in
-place, with 175 draft terms from one machining patent. There is no website yet:
-that is Phase 1.
+**Status: Phase 1 (MVP website).** 175 draft terms from one machining patent,
+a searchable website with term pages, EN/JA interface, study lists and Anki export.
+Live at https://yoyoyosiie.github.io/joshi_no_jisho/ once GitHub Pages is switched on
+(see "Publishing" below).
 
 ## How it fits together
 
@@ -14,12 +15,14 @@ CSV of candidate terms ──tools/import.py──▶ data/ (YAML, one file per 
                                                │
                                 tools/validate.py (runs in CI on every PR)
                                                │
-                         Phase 1: tools/build.py ──▶ site/ (Astro) ──▶ GitHub Pages
+                          tools/build.py ──▶ site/ (Astro) ──▶ GitHub Pages
 ```
 
 - `data/` is the dictionary itself. See [data/README.md](data/README.md) for how to review a draft term.
 - `schema/` describes what a valid file looks like (JSON Schema).
 - `tools/` holds the Python scripts, including the [patent vocab extractor](tools/patent-vocab/README.md).
+- `site/` is the website (Astro). `tools/build.py` turns `data/` into one JSON file the site reads.
+- `docs/anki.md` explains the Anki note type the export expects.
 
 ## Setup (once)
 
@@ -48,6 +51,37 @@ python tools/import.py my_vocab.csv --jmdict JMdict_e.gz   # import, with Englis
 the [EDRDG JMdict page](https://www.edrdg.org/jmdict/j_jmdict.html). It is not
 stored in the repo because it is large. Without it, imported terms have blank glosses.
 
+## Running the website on your computer
+
+You also need [Node.js](https://nodejs.org/) 24 (the "LTS" download).
+
+```bash
+cd site
+npm install          # once, and whenever package.json changes
+npm run dev          # builds the data, then serves the site at http://localhost:4321/joshi_no_jisho/
+```
+
+`npm run dev` reloads the page when you edit files in `site/src/`. After editing
+`data/`, stop it (Ctrl+C) and run it again so `tools/build.py` picks up the change.
+Other commands: `npm run build` (the real build, into `site/dist/`), `npm test`
+(search tests), `npm run check` (TypeScript errors).
+
+| File | What it is |
+| --- | --- |
+| `site/src/pages/[lang]/index.astro` | Search page (`[lang]` = `en` or `ja`, so each page exists twice) |
+| `site/src/pages/[lang]/t/[id].astro` | One page per term |
+| `site/src/pages/[lang]/lists.astro` | My lists + Anki download |
+| `site/src/scripts/search.ts` | How the search box matches kanji / kana / romaji / English |
+| `site/src/scripts/lists.ts`, `anki.ts` | Lists in the browser, Anki file format |
+| `site/src/styles/global.css` | Colours and shared styles |
+| `data/i18n/*.yaml` | Every piece of interface text, in both languages |
+
+## Publishing
+
+`.github/workflows/deploy.yml` rebuilds and publishes the site every time `main`
+changes. It needs one switch, once: **Settings → Pages → Build and deployment →
+Source: GitHub Actions**.
+
 ## Making a change
 
 1. Make a branch: `git switch -c fix-reading-keiji` (a branch is your own copy to experiment on).
@@ -58,12 +92,6 @@ stored in the repo because it is large. Without it, imported terms have blank gl
 
 For small edits you can skip the terminal: open the file on GitHub, click the
 pencil icon, and choose "Create a new branch and start a pull request".
-
-## Site stack (decided for Phase 1)
-
-**Astro**, reading JSON that `tools/build.py` writes. It gives one page per term,
-JA/EN routes, and a clean place for the interactive parts (lists, Anki export).
-Phase 1 will add Node.js to the setup steps (`npm install`, `npm run build`).
 
 ## License
 

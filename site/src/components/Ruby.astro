@@ -1,0 +1,24 @@
+---
+// Text with furigana. `pairs` comes from tools/build.py: [text] or [text, reading].
+// `hl` = [start, end] character range to highlight (the target term in a sentence).
+import type { Pair } from "../lib/dict";
+
+interface Props {
+  pairs: Pair[];
+  hl?: [number, number] | null;
+}
+const { pairs, hl = null } = Astro.props;
+
+// Work out each pair's position so we know which ones fall inside the highlight.
+let pos = 0;
+const parts = pairs.map((p) => {
+  const start = pos;
+  pos += p[0].length;
+  return { text: p[0], reading: p[1], on: !!hl && start >= hl[0] && pos <= hl[1] };
+});
+---
+{parts.map((p) =>
+  p.reading
+    ? <ruby class:list={{ hl: p.on }}>{p.text}<rt>{p.reading}</rt></ruby>
+    : <span class:list={{ hl: p.on }}>{p.text}</span>
+)}

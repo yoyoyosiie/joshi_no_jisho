@@ -1,0 +1,51 @@
+---
+// About + credits. Keep in step with ATTRIBUTION.md in the repo root.
+import Base from "../../layouts/Base.astro";
+import { LANGS, REPO, dict, t, type Lang } from "../../lib/dict";
+
+export function getStaticPaths() {
+  return LANGS.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const reviewed = dict.terms.filter((x) => x.status === "reviewed").length;
+---
+<Base lang={lang} title={t(lang, "nav.about")}>
+  {lang === "en" ? (
+    <>
+      <h1>About</h1>
+      <p>A Japanese–English dictionary of technical, engineering and STEM terms, made for
+        studying and for exporting to Anki. {dict.terms.length} terms so far, {reviewed} reviewed.
+        Draft terms were collected automatically and haven't been checked yet.</p>
+      <p>Everything lives in the <a href={REPO}>GitHub repository</a>; corrections are welcome as pull requests.</p>
+      <h2>Credits</h2>
+      <ul>
+        <li>English glosses marked “from JMdict”: <a href="https://www.edrdg.org/jmdict/j_jmdict.html">JMdict</a>,
+          © Electronic Dictionary Research and Development Group, <a href="https://www.edrdg.org/edrdg/licence.html">CC BY-SA 4.0</a>.</li>
+        <li>Readings and furigana: <a href="https://github.com/WorksApplications/SudachiPy">SudachiPy</a> and SudachiDict (Works Applications, Apache 2.0).</li>
+        <li>Romaji search: <a href="https://github.com/WaniKani/WanaKana">WanaKana</a> (MIT).</li>
+        <li>Example sentences quoted from patent publications (WIPO / JPO), as noted under each sentence.</li>
+      </ul>
+      <h2>License</h2>
+      <p>Dictionary data: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Code: MIT.
+        Full list: <a href={`${REPO}/blob/main/ATTRIBUTION.md`}>ATTRIBUTION.md</a>.</p>
+    </>
+  ) : (
+    <>
+      <h1>このサイトについて</h1>
+      <p>技術・工学・STEM分野の用語を集めた和英辞典です。学習とAnkiへの書き出しのために作っています。
+        現在{dict.terms.length}語（うち確認済み{reviewed}語）。下書きの用語は自動で収集したもので、まだ確認していません。</p>
+      <p>データはすべて<a href={REPO}>GitHubリポジトリ</a>にあります。修正はプルリクエストで歓迎します。</p>
+      <h2>クレジット</h2>
+      <ul>
+        <li>「JMdictより」と表示された英訳：<a href="https://www.edrdg.org/jmdict/j_jmdict.html">JMdict</a>
+          © Electronic Dictionary Research and Development Group（<a href="https://www.edrdg.org/edrdg/licence.html">CC BY-SA 4.0</a>）</li>
+        <li>読み・ふりがな：<a href="https://github.com/WorksApplications/SudachiPy">SudachiPy</a>・SudachiDict（ワークスアプリケーションズ、Apache 2.0）</li>
+        <li>ローマ字検索：<a href="https://github.com/WaniKani/WanaKana">WanaKana</a>（MIT）</li>
+        <li>例文は特許公報（WIPO・特許庁）から引用し、各例文の下に出典を記載しています。</li>
+      </ul>
+      <h2>ライセンス</h2>
+      <p>辞書データ：<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">CC BY-SA 4.0</a>、コード：MIT。
+        詳細は<a href={`${REPO}/blob/main/ATTRIBUTION.md`}>ATTRIBUTION.md</a>。</p>
+    </>
+  )}
+</Base>
