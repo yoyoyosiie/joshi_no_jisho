@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sentence.schema.json",
+  "title": "Sentence",
+  "description": "One example sentence, shared by every term it links: data/sentences/sNNNNNN.yaml",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "ja", "en", "terms", "source", "en_by", "added"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^s[0-9]{6}$"},
+    "ja": {"type": "string", "minLength": 1},
+    "en": {"type": ["string", "null"], "minLength": 1, "description": "Translation. null until someone writes one."},
+    "terms": {
+      "type": "array",
+      "minItems": 1,
+      "description": "The only place a term<->sentence link is stored.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "surface"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^t[0-9]{6}$"},
+          "surface": {"type": "string", "minLength": 1, "description": "The term as it appears in `ja` (e.g. 振動して), for highlighting."}
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "ref"],
+      "properties": {
+        "type": {"enum": ["patent", "tatoeba", "book", "web", "original", "other"]},
+        "ref": {"type": ["string", "null"]},
+        "url": {"type": ["string", "null"]},
+        "license": {"type": ["string", "null"]}
+      }
+    },
+    "en_by": {"enum": ["human", "machine", "source", null], "description": "Who translated it. machine = shown with a badge. Must be set when `en` is."},
+    "added": {"type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"}
+  }
+}

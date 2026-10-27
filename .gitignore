@@ -2,4 +2,4 @@ __pycache__/
 *.pyc
 vocab*.csv
 vocab*.english.json
-!patent-vocab/tests/*
+!tools/patent-vocab/tests/*

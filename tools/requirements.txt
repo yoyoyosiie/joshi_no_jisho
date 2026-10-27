@@ -1,0 +1,6 @@
+# Data tools (validate.py, import.py). Install with: pip install -r tools/requirements.txt
+pyyaml
+jsonschema
+# Furigana for imported terms (same tokenizer as tools/patent-vocab).
+sudachipy
+sudachidict_core

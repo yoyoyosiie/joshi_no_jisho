@@ -1,0 +1,11 @@
+# UI strings (English). ja.yaml must have exactly the same keys.
+site.title: Joshi's Dictionary
+site.tagline: Japanese–English technical terms
+search.placeholder: Search in Japanese, romaji, or English
+term.reading: Reading
+term.senses: Meanings
+term.sentences: Example sentences
+term.sources: Found in
+term.draft: Draft (not yet reviewed)
+badge.machine_translation: Machine translation
+ui.language: 日本語

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "list.schema.json",
+  "title": "Curated list",
+  "description": "data/lists/<id>.yaml: an ordered list of terms, like a playlist.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "terms"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+    "name": {"$ref": "#/$defs/bilingual"},
+    "description": {"$ref": "#/$defs/bilingual"},
+    "terms": {"type": "array", "items": {"type": "string", "pattern": "^t[0-9]{6}$"}, "uniqueItems": true}
+  },
+  "$defs": {
+    "bilingual": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "ja"],
+      "properties": {"en": {"type": "string"}, "ja": {"type": "string"}}
+    }
+  }
+}
