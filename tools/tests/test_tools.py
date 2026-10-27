@@ -120,12 +120,49 @@ class ImportTest(DataTest):
         self.assertIn("0 new terms", r.stdout)
         self.assertEqual(len(list((self.data / "terms").glob("*.yaml"))), 12)
 
+    def test_machine_gloss_and_flags(self):
+        csv_path = self.data / "v.csv"
+        csv_path.write_text(
+            "term,reading,freq,n_patents,sources,example_ja,english,en_by,en_source,flags\n"
+            "びびり振動,びびりしんどう,5,1,JP1,びびり振動を抑える。,chatter; chatter vibration,machine,,\n"
+            "ワソーク,ワソーク,1,1,JP1,ワソークを固定する。,,,,ocr?\n"
+            "警告城,けいこくじょう,1,1,JP1,警告城に入る。,,,,not-a-term?\n", encoding="utf-8")
+        r = run("import.py", csv_path, "--date", "2026-10-27", data=self.data)
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn("? ", r.stdout)
+        self.assertIn("1 imported rows flagged", r.stdout)
+        self.assertIn("1 not-a-term rows skipped", r.stdout)
+        self.assertEqual(len(list((self.data / "terms").glob("*.yaml"))), 2)
+        first = (self.data / "terms" / "t000001.yaml").read_text(encoding="utf-8")
+        self.assertIn("en_by: machine", first)
+        self.assertEqual(run("validate.py", data=self.data).returncode, 0)
+
     def test_shared_sentence(self):
         run("import.py", SAMPLE_CSV, "--date", "2026-10-27", data=self.data)
         # 減速機構 and 回転軸 share one example sentence -> one file, two links.
         shared = [p for p in (self.data / "sentences").glob("*.yaml")
                   if "減速機構" in p.read_text(encoding="utf-8") and "t000002" in p.read_text(encoding="utf-8")]
         self.assertEqual(len(shared), 1)
+
+
+class ExtractFlagsTest(unittest.TestCase):
+    def setUp(self):
+        sys.path.insert(0, str(TOOLS / "patent-vocab"))
+        import extract
+        self.extract = extract
+
+    def terms(self, text):
+        return {t["term"]: t for t in self.extract.extract([("JP1", text)])}
+
+    def test_flags(self):
+        t = self.terms("経時変化を測定する。被削材を加工する。ワークWを固定する。ワソークを固定する。"
+                       "ワークを固定する。ワークを測定する。")
+        self.assertEqual(t["経時変化"]["reading"], "けいじへんか")
+        self.assertEqual(t["経時変化"]["flags"], ["reading-fixed"])
+        self.assertEqual(t["被削材"]["reading"], "ひさくざい")  # 被 prefix is kept
+        self.assertNotIn("ワークW", t)                        # drawing label dropped
+        self.assertEqual(t["ワーク"]["flags"], [])
+        self.assertIn("ocr?", t["ワソーク"]["flags"])
 
 
 class JmdictTest(unittest.TestCase):
