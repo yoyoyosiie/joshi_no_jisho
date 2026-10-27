@@ -21,9 +21,9 @@ title and claim 1 of each patent's English family member (US > EP > WO) to
 translate against.
 
 `flags` marks rows to check by hand:
-- `ocr?`: an unknown katakana word (ワソーク), or a rare term one character off a common one (スベクトラム vs スペクトラム).
+- `ocr?`: an unknown katakana word (ワソーク), or a rare term one character off a common one (スベクトラム vs スペクトラム). Only checked on OCR'd PDFs.
 - `reading?`: Sudachi didn't know a kanji part, so the reading is a guess.
-- `reading-fixed`: the reading came from `READING_FIX` in extract.py (経時 → けいじ). Add to that table when you find another.
+- `reading-fixed`: the reading came from `READING_FIX` in extract.py (経時 → けいじ, 内歯 → ないし, ボール溝 → ボールみぞ). Add to that table when you find another; keys are the surface of 1–3 Sudachi tokens.
 - `not-a-term?`: gloss.py found no meaning. The importer skips these rows.
 
 ## English glosses
@@ -49,5 +49,6 @@ Every row becomes a draft term; see `data/README.md` for reviewing them.
 - Machine glosses are a first draft. They're good for compounds the English abstract names (空転周波数 → idling frequency) and weaker for generic words.
 - J-PlatPat is not used: it is a JS app and its terms discourage automated bulk access. For bulk JP data, JPO's 特許情報取得API (registration required) is the official route.
 - The flags catch most OCR junk, not all: 警告城 (for 警告域) and 総和基 (for 総和量) are real kanji, so only the gloss step notices them.
-- Sudachi readings can be wrong without being flagged (X刃数 read as Xじんすう). Readings of rare kanji compounds still need a look.
+- Sudachi readings can be wrong without being flagged (X刃数 read as Xじんすう, 普通刃 as ふつうじん). Readings of rare kanji compounds still need a look.
+- PDFs from Google Patents / J-PlatPat have a text layer and need no OCR (install `poppler-data` or pdftotext can't map the Japanese fonts). Pages without text in such a PDF are drawings and are skipped.
 - `tests/sample.html` is a hand-written fixture, not a real patent.
