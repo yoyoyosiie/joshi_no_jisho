@@ -1,6 +1,6 @@
 # UI strings (English). ja.yaml must have exactly the same keys.
 # {n} and {name} are filled in by the site.
-site.title: Joshi's Dictionary
+site.title: Joshi's Jisho
 site.tagline: Japanese–English technical terms
 nav.search: Search
 nav.lists: My lists
